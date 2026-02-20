@@ -1,0 +1,18 @@
+[
+  {
+    "id": "light",
+    "name": "Modo Claro",
+    "selectedTokenSets": {
+      "tokens/global": "enabled",
+      "tokens/light": "enabled"
+    }
+  },
+  {
+    "id": "dark",
+    "name": "Modo Oscuro",
+    "selectedTokenSets": {
+      "tokens/global": "enabled",
+      "tokens/dark": "enabled"
+    }
+  }
+]

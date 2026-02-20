@@ -1,0 +1,16 @@
+{
+  "semantic": {
+    "bg": {
+      "canvas": {
+        "value": "{core.colors.gray.900}",
+        "type": "color"
+      }
+    },
+    "text": {
+      "main": {
+        "value": "{core.colors.gray.100}",
+        "type": "color"
+      }
+    }
+  }
+}

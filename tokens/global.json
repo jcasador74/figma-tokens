@@ -1,0 +1,28 @@
+{
+  "core": {
+    "colors": {
+      "blue": {
+        "500": {
+          "value": "#007bff",
+          "type": "color"
+        }
+      },
+      "gray": {
+        "100": {
+          "value": "#f8f9fa",
+          "type": "color"
+        },
+        "900": {
+          "value": "#212529",
+          "type": "color"
+        }
+      }
+    },
+    "spacing": {
+      "md": {
+        "value": "16px",
+        "type": "spacing"
+      }
+    }
+  }
+}
