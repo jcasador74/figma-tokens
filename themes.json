@@ -1,0 +1,14 @@
+{
+  "global": {
+    "color": {
+      "$type": "sizing",
+      "$value": "12"
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global"
+    ]
+  }
+}
