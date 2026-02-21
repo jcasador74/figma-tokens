@@ -1,234 +1,4 @@
 {
-  "semantic": {
-    "typography": {
-      "body": {
-        "fontFamily": {
-          "value": "{primitive.fontFamily.base}",
-          "type": "fontFamily"
-        },
-        "fontSize": {
-          "value": "{primitive.fontSize.base}",
-          "type": "fontSize"
-        },
-        "lineHeight": {
-          "value": "{primitive.lineHeight.normal}",
-          "type": "lineHeight"
-        },
-        "fontWeight": {
-          "value": "{primitive.fontWeight.regular}",
-          "type": "fontWeight"
-        },
-        "color": {
-          "value": "{primitive.color.neutral.900}",
-          "type": "color"
-        }
-      }
-    },
-    "color": {
-      "text": {
-        "default": {
-          "value": "{primitive.color.brand.primary}",
-          "type": "color"
-        },
-        "display": {
-          "value": "{primitive.color.neutral.900}",
-          "type": "color"
-        },
-        "inverse": {
-          "value": "{primitive.color.brand.white}",
-          "type": "color"
-        }
-      },
-      "link": {
-        "inline": {
-          "value": "{primitive.color.brand.primary}",
-          "type": "color"
-        },
-        "display": {
-          "value": "{primitive.color.brand.primary}",
-          "type": "color"
-        },
-        "inverse": {
-          "value": "{primitive.color.brand.white}",
-          "type": "color"
-        },
-        "hover": {
-          "inline": {
-            "value": "{primitive.color.brand.primaryHover}",
-            "type": "color"
-          },
-          "display": {
-            "value": "{primitive.color.brand.primaryHover}",
-            "type": "color"
-          },
-          "inverse": {
-            "value": "{primitive.color.brand.white}",
-            "type": "color"
-          }
-        }
-      }
-    },
-    "interaction": {
-      "link": {
-        "hoverUnderline": {
-          "value": true,
-          "type": "boolean"
-        }
-      }
-    }
-  },
-  "components": {
-    "paragraph": {
-      "fontFamily": {
-        "value": "{semantic.typography.body.fontFamily}",
-        "type": "fontFamily"
-      },
-      "fontSize": {
-        "value": "{semantic.typography.body.fontSize}",
-        "type": "fontSize"
-      },
-      "lineHeight": {
-        "value": "{semantic.typography.body.lineHeight}",
-        "type": "lineHeight"
-      },
-      "fontWeight": {
-        "value": "{semantic.typography.body.fontWeight}",
-        "type": "fontWeight"
-      },
-      "color": {
-        "value": "{semantic.typography.body.color}",
-        "type": "color"
-      }
-    },
-    "link": {
-      "typography": {
-        "fontFamily": {
-          "value": "{primitive.fontFamily.base}",
-          "type": "fontFamily"
-        },
-        "fontWeight": {
-          "value": "{primitive.fontWeight.regular}",
-          "type": "fontWeight"
-        },
-        "lineHeight": {
-          "value": "{primitive.lineHeight.normal}",
-          "type": "lineHeight"
-        }
-      },
-      "size": {
-        "3xs": {
-          "fontSize": {
-            "value": "{primitive.fontSize.3xs}",
-            "type": "fontSize"
-          }
-        },
-        "2xs": {
-          "fontSize": {
-            "value": "{primitive.fontSize.2xs}",
-            "type": "fontSize"
-          }
-        },
-        "xs": {
-          "fontSize": {
-            "value": "{primitive.fontSize.xs}",
-            "type": "fontSize"
-          }
-        },
-        "base": {
-          "fontSize": {
-            "value": "{primitive.fontSize.base}",
-            "type": "fontSize"
-          }
-        },
-        "md": {
-          "fontSize": {
-            "value": "{primitive.fontSize.md}",
-            "type": "fontSize"
-          }
-        },
-        "lg": {
-          "fontSize": {
-            "value": "{primitive.fontSize.lg}",
-            "type": "fontSize"
-          }
-        },
-        "xl": {
-          "fontSize": {
-            "value": "{primitive.fontSize.xl}",
-            "type": "fontSize"
-          }
-        },
-        "2xl": {
-          "fontSize": {
-            "value": "{primitive.fontSize.2xl}",
-            "type": "fontSize"
-          }
-        },
-        "3xl": {
-          "fontSize": {
-            "value": "{primitive.fontSize.3xl}",
-            "type": "fontSize"
-          }
-        }
-      },
-      "variant": {
-        "inline": {
-          "color": {
-            "value": "{semantic.color.link.inline}",
-            "type": "color"
-          },
-          "hoverColor": {
-            "value": "{semantic.color.link.hover.inline}",
-            "type": "color"
-          }
-        },
-        "display": {
-          "color": {
-            "value": "{semantic.color.link.display}",
-            "type": "color"
-          },
-          "hoverColor": {
-            "value": "{semantic.color.link.hover.display}",
-            "type": "color"
-          }
-        },
-        "inverse": {
-          "color": {
-            "value": "{semantic.color.link.inverse}",
-            "type": "color"
-          },
-          "hoverColor": {
-            "value": "{semantic.color.link.hover.inverse}",
-            "type": "color"
-          }
-        }
-      },
-      "decoration": {
-        "hoverUnderline": {
-          "value": "{semantic.interaction.link.hoverUnderline}",
-          "type": "boolean"
-        }
-      },
-      "icon": {
-        "enabled": {
-          "value": false,
-          "type": "boolean"
-        },
-        "fontFamily": {
-          "value": "{primitive.fontFamily.icons}",
-          "type": "fontFamily"
-        },
-        "gap": {
-          "value": "{primitive.spacing.1}",
-          "type": "spacing"
-        },
-        "size": {
-          "value": "{primitive.fontSize.base}",
-          "type": "fontSize"
-        }
-      }
-    }
-  },
   "primitive": {
     "color": {
       "brand": {
@@ -551,6 +321,236 @@
         "value": "0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04)",
         "type": "boxShadow",
         "description": "Sombra extra grande — overlays flotantes"
+      }
+    }
+  },s
+  "semantic": {
+    "typography": {
+      "body": {
+        "fontFamily": {
+          "value": "{primitive.fontFamily.base}",
+          "type": "fontFamily"
+        },
+        "fontSize": {
+          "value": "{primitive.fontSize.base}",
+          "type": "fontSize"
+        },
+        "lineHeight": {
+          "value": "{primitive.lineHeight.normal}",
+          "type": "lineHeight"
+        },
+        "fontWeight": {
+          "value": "{primitive.fontWeight.regular}",
+          "type": "fontWeight"
+        },
+        "color": {
+          "value": "{primitive.color.neutral.900}",
+          "type": "color"
+        }
+      }
+    },
+    "color": {
+      "text": {
+        "default": {
+          "value": "{primitive.color.brand.primary}",
+          "type": "color"
+        },
+        "display": {
+          "value": "{primitive.color.neutral.900}",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "{primitive.color.brand.white}",
+          "type": "color"
+        }
+      },
+      "link": {
+        "inline": {
+          "value": "{primitive.color.brand.primary}",
+          "type": "color"
+        },
+        "display": {
+          "value": "{primitive.color.brand.primary}",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "{primitive.color.brand.white}",
+          "type": "color"
+        },
+        "hover": {
+          "inline": {
+            "value": "{primitive.color.brand.primaryHover}",
+            "type": "color"
+          },
+          "display": {
+            "value": "{primitive.color.brand.primaryHover}",
+            "type": "color"
+          },
+          "inverse": {
+            "value": "{primitive.color.brand.white}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "interaction": {
+      "link": {
+        "hoverUnderline": {
+          "value": true,
+          "type": "boolean"
+        }
+      }
+    }
+  },
+  "components": {
+    "paragraph": {
+      "fontFamily": {
+        "value": "{semantic.typography.body.fontFamily}",
+        "type": "fontFamily"
+      },
+      "fontSize": {
+        "value": "{semantic.typography.body.fontSize}",
+        "type": "fontSize"
+      },
+      "lineHeight": {
+        "value": "{semantic.typography.body.lineHeight}",
+        "type": "lineHeight"
+      },
+      "fontWeight": {
+        "value": "{semantic.typography.body.fontWeight}",
+        "type": "fontWeight"
+      },
+      "color": {
+        "value": "{semantic.typography.body.color}",
+        "type": "color"
+      }
+    },
+    "link": {
+      "typography": {
+        "fontFamily": {
+          "value": "{primitive.fontFamily.base}",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "{primitive.fontWeight.regular}",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "{primitive.lineHeight.normal}",
+          "type": "lineHeight"
+        }
+      },
+      "size": {
+        "3xs": {
+          "fontSize": {
+            "value": "{primitive.fontSize.3xs}",
+            "type": "fontSize"
+          }
+        },
+        "2xs": {
+          "fontSize": {
+            "value": "{primitive.fontSize.2xs}",
+            "type": "fontSize"
+          }
+        },
+        "xs": {
+          "fontSize": {
+            "value": "{primitive.fontSize.xs}",
+            "type": "fontSize"
+          }
+        },
+        "base": {
+          "fontSize": {
+            "value": "{primitive.fontSize.base}",
+            "type": "fontSize"
+          }
+        },
+        "md": {
+          "fontSize": {
+            "value": "{primitive.fontSize.md}",
+            "type": "fontSize"
+          }
+        },
+        "lg": {
+          "fontSize": {
+            "value": "{primitive.fontSize.lg}",
+            "type": "fontSize"
+          }
+        },
+        "xl": {
+          "fontSize": {
+            "value": "{primitive.fontSize.xl}",
+            "type": "fontSize"
+          }
+        },
+        "2xl": {
+          "fontSize": {
+            "value": "{primitive.fontSize.2xl}",
+            "type": "fontSize"
+          }
+        },
+        "3xl": {
+          "fontSize": {
+            "value": "{primitive.fontSize.3xl}",
+            "type": "fontSize"
+          }
+        }
+      },
+      "variant": {
+        "inline": {
+          "color": {
+            "value": "{semantic.color.link.inline}",
+            "type": "color"
+          },
+          "hoverColor": {
+            "value": "{semantic.color.link.hover.inline}",
+            "type": "color"
+          }
+        },
+        "display": {
+          "color": {
+            "value": "{semantic.color.link.display}",
+            "type": "color"
+          },
+          "hoverColor": {
+            "value": "{semantic.color.link.hover.display}",
+            "type": "color"
+          }
+        },
+        "inverse": {
+          "color": {
+            "value": "{semantic.color.link.inverse}",
+            "type": "color"
+          },
+          "hoverColor": {
+            "value": "{semantic.color.link.hover.inverse}",
+            "type": "color"
+          }
+        }
+      },
+      "decoration": {
+        "hoverUnderline": {
+          "value": "{semantic.interaction.link.hoverUnderline}",
+          "type": "boolean"
+        }
+      },
+      "icon": {
+        "enabled": {
+          "value": false,
+          "type": "boolean"
+        },
+        "fontFamily": {
+          "value": "{primitive.fontFamily.icons}",
+          "type": "fontFamily"
+        },
+        "gap": {
+          "value": "{primitive.spacing.1}",
+          "type": "spacing"
+        },
+        "size": {
+          "value": "{primitive.fontSize.base}",
+          "type": "fontSize"
+        }
       }
     }
   },
