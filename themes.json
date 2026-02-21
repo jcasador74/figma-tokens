@@ -73,101 +73,7 @@
         }
       }
     },
-    "typography": {
-      "fontFamily": {
-        "base": {
-          "value": "Source Sans Pro",
-          "type": "fontFamily"
-        },
-        "heading": {
-          "value": "Montserrat",
-          "type": "fontFamily"
-        },
-        "icons": {
-          "value": "Font Awesome 6 Free",
-          "type": "fontFamily"
-        }
-      },
-      "fontSize": {
-        "3xs": {
-          "value": 11,
-          "type": "fontSize",
-          "description": ".6875rem"
-        },
-        "2xs": {
-          "value": 12,
-          "type": "fontSize",
-          "description": ".75rem"
-        },
-        "xs": {
-          "value": 13,
-          "type": "fontSize",
-          "description": ".8125rem"
-        },
-        "base": {
-          "value": 15,
-          "type": "fontSize",
-          "description": ".9375rem"
-        },
-        "md": {
-          "value": 17,
-          "type": "fontSize",
-          "description": "1.0625rem"
-        },
-        "lg": {
-          "value": 20,
-          "type": "fontSize",
-          "description": "1.25rem"
-        },
-        "xl": {
-          "value": 22,
-          "type": "fontSize",
-          "description": "1.375rem"
-        },
-        "2xl": {
-          "value": 26,
-          "type": "fontSize",
-          "description": "1.625rem"
-        },
-        "3xl": {
-          "value": 28,
-          "type": "fontSize",
-          "description": "1.75rem"
-        }
-      },
-      "lineHeight": {
-        "tight": {
-          "value": 1.2,
-          "type": "lineHeight"
-        },
-        "normal": {
-          "value": 1.5,
-          "type": "lineHeight"
-        },
-        "loose": {
-          "value": 1.75,
-          "type": "lineHeight"
-        }
-      },
-      "fontWeight": {
-        "regular": {
-          "value": 400,
-          "type": "fontWeight"
-        },
-        "medium": {
-          "value": 500,
-          "type": "fontWeight"
-        },
-        "semibold": {
-          "value": 600,
-          "type": "fontWeight"
-        },
-        "bold": {
-          "value": 700,
-          "type": "fontWeight"
-        }
-      }
-    },
+    "typography": {},
     "Typo": {
       "fontFamily": {
         "base": {
@@ -178,6 +84,99 @@
               "ALL_SCOPES"
             ]
           }
+        }
+      },
+      "fontFamily": {
+        "base": {
+          "value": "Source Sans Pro",
+          "type": "text"
+        },
+        "heading": {
+          "value": "Montserrat",
+          "type": "text"
+        },
+        "icons": {
+          "value": "Font Awesome 6 Free",
+          "type": "text"
+        }
+      },
+      "fontSize": {
+        "3xs": {
+          "value": 11,
+          "type": "number",
+          "description": ".6875rem"
+        },
+        "2xs": {
+          "value": 12,
+          "type": "number",
+          "description": ".75rem"
+        },
+        "xs": {
+          "value": 13,
+          "type": "number",
+          "description": ".8125rem"
+        },
+        "base": {
+          "value": 15,
+          "type": "number",
+          "description": ".9375rem"
+        },
+        "md": {
+          "value": 17,
+          "type": "number",
+          "description": "1.0625rem"
+        },
+        "lg": {
+          "value": 20,
+          "type": "number",
+          "description": "1.25rem"
+        },
+        "xl": {
+          "value": 22,
+          "type": "number",
+          "description": "1.375rem"
+        },
+        "2xl": {
+          "value": 26,
+          "type": "number",
+          "description": "1.625rem"
+        },
+        "3xl": {
+          "value": 28,
+          "type": "number",
+          "description": "1.75rem"
+        }
+      },
+      "lineHeight": {
+        "tight": {
+          "value": 1.2,
+          "type": "number"
+        },
+        "normal": {
+          "value": 1.5,
+          "type": "number"
+        },
+        "loose": {
+          "value": 1.75,
+          "type": "number"
+        }
+      },
+      "fontWeight": {
+        "regular": {
+          "value": 400,
+          "type": "text"
+        },
+        "medium": {
+          "value": 500,
+          "type": "text"
+        },
+        "semibold": {
+          "value": 600,
+          "type": "text"
+        },
+        "bold": {
+          "value": 700,
+          "type": "text"
         }
       }
     },
@@ -240,32 +239,32 @@
     },
     "radius": {
       "base": {
-        "value": "6px",
+        "value": "6",
         "type": "borderRadius",
         "description": ".375rem"
       },
       "sm": {
-        "value": "4px",
+        "value": "4",
         "type": "borderRadius",
         "description": ".25rem"
       },
       "lg": {
-        "value": "8px",
+        "value": "8",
         "type": "borderRadius",
         "description": ".5rem"
       },
       "xl": {
-        "value": "16px",
+        "value": "16",
         "type": "borderRadius",
         "description": "1rem"
       },
       "xxl": {
-        "value": "32px",
+        "value": "32",
         "type": "borderRadius",
         "description": "2rem"
       },
       "pill": {
-        "value": "9999px",
+        "value": "9999",
         "type": "borderRadius",
         "description": "50rem"
       }
@@ -318,22 +317,22 @@
     },
     "shadow": {
       "sm": {
-        "value": "0 1px 2px 0 rgba(0,0,0,0.05)",
+        "value": "0 1 2 0 rgba(0,0,0,0.05)",
         "type": "boxShadow",
         "description": "Sombra sutil — tarjetas, inputs"
       },
       "md": {
-        "value": "0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06)",
+        "value": "0 4 6 -1 rgba(0,0,0,0.1), 0 2 4 -1 rgba(0,0,0,0.06)",
         "type": "boxShadow",
         "description": "Sombra media — dropdowns, popovers"
       },
       "lg": {
-        "value": "0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05)",
+        "value": "0 10 15 -3 rgba(0,0,0,0.1), 0 4 6 -2 rgba(0,0,0,0.05)",
         "type": "boxShadow",
         "description": "Sombra grande — modales, sidebars"
       },
       "xl": {
-        "value": "0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04)",
+        "value": "0 20 25 -5 rgba(0,0,0,0.1), 0 10 10 -5 rgba(0,0,0,0.04)",
         "type": "boxShadow",
         "description": "Sombra extra grande — overlays flotantes"
       }
