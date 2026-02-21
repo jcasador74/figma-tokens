@@ -419,152 +419,108 @@
   },
   "components": {
     "paragraph": {
-      "fontFamily": {
-        "value": "{semantic.typography.body.fontFamily}",
-        "type": "fontFamily"
-      },
-      "fontSize": {
-        "value": "{semantic.typography.body.fontSize}",
-        "type": "fontSize"
-      },
-      "lineHeight": {
-        "value": "{semantic.typography.body.lineHeight}",
-        "type": "lineHeight"
-      },
-      "fontWeight": {
-        "value": "{semantic.typography.body.fontWeight}",
-        "type": "fontWeight"
-      },
       "color": {
-        "value": "{semantic.typography.body.color}",
-        "type": "color"
+        "value": "{color.text.default}",
+        "type": "color",
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
       }
     },
     "link": {
-      "typography": {
-        "fontFamily": {
-          "value": "{primitive.typography.fontFamily.base}",
-          "type": "fontFamily"
-        },
-        "fontWeight": {
-          "value": "{primitive.typography.fontWeight.regular}",
-          "type": "fontWeight"
-        },
-        "lineHeight": {
-          "value": "{primitive.typography.lineHeight.normal}",
-          "type": "lineHeight"
-        }
-      },
-      "size": {
-        "3xs": {
-          "fontSize": {
-            "value": "{primitive.typography.fontSize.3xs}",
-            "type": "fontSize"
-          }
-        },
-        "2xs": {
-          "fontSize": {
-            "value": "{primitive.typography.fontSize.2xs}",
-            "type": "fontSize"
-          }
-        },
-        "xs": {
-          "fontSize": {
-            "value": "{primitive.typography.fontSize.xs}",
-            "type": "fontSize"
-          }
-        },
-        "base": {
-          "fontSize": {
-            "value": "{primitive.typography.fontSize.base}",
-            "type": "fontSize"
-          }
-        },
-        "md": {
-          "fontSize": {
-            "value": "{primitive.typography.fontSize.md}",
-            "type": "fontSize"
-          }
-        },
-        "lg": {
-          "fontSize": {
-            "value": "{primitive.typography.fontSize.lg}",
-            "type": "fontSize"
-          }
-        },
-        "xl": {
-          "fontSize": {
-            "value": "{primitive.typography.fontSize.xl}",
-            "type": "fontSize"
-          }
-        },
-        "2xl": {
-          "fontSize": {
-            "value": "{primitive.typography.fontSize.2xl}",
-            "type": "fontSize"
-          }
-        },
-        "3xl": {
-          "fontSize": {
-            "value": "{primitive.typography.fontSize.3xl}",
-            "type": "fontSize"
-          }
-        }
-      },
       "variant": {
         "inline": {
           "color": {
-            "value": "{semantic.color.link.inline}",
-            "type": "color"
+            "value": "{color.link.inline}",
+            "type": "color",
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ]
+            }
           },
           "hoverColor": {
-            "value": "{semantic.color.link.hover.inline}",
-            "type": "color"
+            "value": "{color.link.hover.inline}",
+            "type": "color",
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ]
+            }
           }
         },
         "display": {
           "color": {
-            "value": "{semantic.color.link.display}",
-            "type": "color"
+            "value": "{color.link.display}",
+            "type": "color",
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ]
+            }
           },
           "hoverColor": {
-            "value": "{semantic.color.link.hover.display}",
-            "type": "color"
+            "value": "{color.link.hover.display}",
+            "type": "color",
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ]
+            }
           }
         },
         "inverse": {
           "color": {
-            "value": "{semantic.color.link.inverse}",
-            "type": "color"
+            "value": "{color.link.inverse}",
+            "type": "color",
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ]
+            }
           },
           "hoverColor": {
-            "value": "{semantic.color.link.hover.inverse}",
-            "type": "color"
+            "value": "{color.link.hover.inverse}",
+            "type": "color",
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ]
+            }
           }
         }
       },
       "decoration": {
         "hoverUnderline": {
-          "value": "{semantic.interaction.link.hoverUnderline}",
-          "type": "boolean"
+          "value": "true",
+          "type": "boolean",
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          }
         }
       },
       "icon": {
         "enabled": {
-          "value": false,
-          "type": "boolean"
-        },
-        "fontFamily": {
-          "value": "{primitive.typography.fontFamily.icons}",
-          "type": "fontFamily"
+          "value": "false",
+          "type": "boolean",
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          }
         },
         "gap": {
-          "value": "{primitive.spacing.1}",
-          "type": "spacing"
-        },
-        "size": {
-          "value": "{primitive.typography.fontSize.base}",
-          "type": "fontSize"
+          "value": 1,
+          "type": "number",
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          }
         }
       }
     }
