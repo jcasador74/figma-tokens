@@ -510,6 +510,16 @@
         }
       },
       "fontSize": {
+        "3xs": {
+          "value": 11,
+          "type": "typography",
+          "description": ".8125rem"
+        },
+        "2xs": {
+          "value": 12,
+          "type": "typography",
+          "description": ".8125rem"
+        },
         "xs": {
           "value": 13,
           "type": "typography",
