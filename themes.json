@@ -502,80 +502,80 @@
       "fontFamily": {
         "base": {
           "value": "Source Sans Pro",
-          "type": "fontFamily"
+          "type": "typography"
         },
         "heading": {
           "value": "Montserrat",
-          "type": "fontFamily"
+          "type": "typography"
         }
       },
       "fontSize": {
         "xs": {
           "value": 13,
-          "type": "fontSizes",
+          "type": "typography",
           "description": ".8125rem"
         },
         "sm": {
           "value": 15,
-          "type": "fontSizes",
+          "type": "typography",
           "description": ".9375rem"
         },
         "md": {
           "value": 17,
-          "type": "fontSizes",
+          "type": "typography",
           "description": "1.0625rem"
         },
         "lg": {
           "value": 20,
-          "type": "fontSizes",
+          "type": "typography",
           "description": "1.25rem"
         },
         "xl": {
           "value": 22,
-          "type": "fontSizes",
+          "type": "typography",
           "description": "1.375rem"
         },
         "2xl": {
           "value": 26,
-          "type": "fontSizes",
+          "type": "typography",
           "description": "1.625rem"
         },
         "3xl": {
           "value": 28,
-          "type": "fontSizes",
+          "type": "typography",
           "description": "1.75rem"
         }
       },
       "lineHeight": {
         "tight": {
           "value": 1.2,
-          "type": "lineHeights"
+          "type": "typography"
         },
         "normal": {
           "value": 1.5,
-          "type": "lineHeights"
+          "type": "typography"
         },
         "loose": {
           "value": 1.75,
-          "type": "lineHeights"
+          "type": "typography"
         }
       },
       "fontWeight": {
         "regular": {
           "value": 400,
-          "type": "fontWeights"
+          "type": "typography"
         },
         "medium": {
           "value": 500,
-          "type": "fontWeights"
+          "type": "typography"
         },
         "semibold": {
           "value": 600,
-          "type": "fontWeights"
+          "type": "typography"
         },
         "bold": {
           "value": 700,
-          "type": "fontWeights"
+          "type": "typography"
         }
       }
     },
