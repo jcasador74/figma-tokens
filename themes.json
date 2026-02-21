@@ -502,11 +502,11 @@
       "fontFamily": {
         "base": {
           "value": "Source Sans Pro",
-          "type": "Para el cuerpo de texto y encabezados"
+          "type": "fontFamily"
         },
         "heading": {
           "value": "Montserrat",
-          "type": "Para los H1"
+          "type": "fontFamily"
         }
       },
       "fontSize": {
