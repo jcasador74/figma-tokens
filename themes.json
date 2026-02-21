@@ -1,55 +1,30 @@
 {
-  "primitive/primitive": {
+  "primitive": {
     "color": {
       "brand": {
         "primary": {
           "value": "#087021",
           "type": "color",
-          "$extensions": {
-            "com.figma.scopes": [
-              "ALL_SCOPES"
-            ]
-          },
           "description": "Color principal corporativo (verde)."
         },
         "primaryHover": {
           "value": "#0b4c1a",
           "type": "color",
-          "$extensions": {
-            "com.figma.scopes": [
-              "ALL_SCOPES"
-            ]
-          },
           "description": "Hover/active sobre principal."
         },
         "support": {
           "value": "#c4ddca",
           "type": "color",
-          "$extensions": {
-            "com.figma.scopes": [
-              "ALL_SCOPES"
-            ]
-          },
           "description": "Verde apoyo (fondo suave)."
         },
         "surface": {
           "value": "#f7fbf8",
           "type": "color",
-          "$extensions": {
-            "com.figma.scopes": [
-              "ALL_SCOPES"
-            ]
-          },
           "description": "Apoyo específico (muy sutil)."
         },
         "white": {
           "value": "#ffffff",
           "type": "color",
-          "$extensions": {
-            "com.figma.scopes": [
-              "ALL_SCOPES"
-            ]
-          },
           "description": "Blanco."
         }
       },
@@ -57,41 +32,21 @@
         "100": {
           "value": "#f5f5f5",
           "type": "color",
-          "$extensions": {
-            "com.figma.scopes": [
-              "ALL_SCOPES"
-            ]
-          },
           "description": "Fondo específico (muy claro)."
         },
         "200": {
           "value": "#eeeeee",
           "type": "color",
-          "$extensions": {
-            "com.figma.scopes": [
-              "ALL_SCOPES"
-            ]
-          },
           "description": "Contenedor (fondo)."
         },
         "300": {
           "value": "#bebebe",
           "type": "color",
-          "$extensions": {
-            "com.figma.scopes": [
-              "ALL_SCOPES"
-            ]
-          },
           "description": "Bordes/auxiliar."
         },
         "900": {
           "value": "#111111",
           "type": "color",
-          "$extensions": {
-            "com.figma.scopes": [
-              "ALL_SCOPES"
-            ]
-          },
           "description": "Texto principal."
         }
       },
@@ -99,899 +54,343 @@
         "success": {
           "value": "#198754",
           "type": "color",
-          "$extensions": {
-            "com.figma.scopes": [
-              "ALL_SCOPES"
-            ]
-          },
           "description": "Éxito"
         },
         "info": {
           "value": "#0dcaf0",
           "type": "color",
-          "$extensions": {
-            "com.figma.scopes": [
-              "ALL_SCOPES"
-            ]
-          },
           "description": "Información"
         },
         "warning": {
           "value": "#ffc107",
           "type": "color",
-          "$extensions": {
-            "com.figma.scopes": [
-              "ALL_SCOPES"
-            ]
-          },
           "description": "Advertencia"
         },
         "danger": {
           "value": "#dc3545",
           "type": "color",
-          "$extensions": {
-            "com.figma.scopes": [
-              "ALL_SCOPES"
-            ]
-          },
           "description": "Error"
+        }
+      }
+    },
+    "typography": {
+      "fontFamily": {
+        "base": {
+          "value": "Source Sans Pro",
+          "type": "fontFamily"
+        },
+        "heading": {
+          "value": "Montserrat",
+          "type": "fontFamily"
+        },
+        "icons": {
+          "value": "Font Awesome 6 Free",
+          "type": "fontFamily"
+        }
+      },
+      "fontSize": {
+        "3xs": {
+          "value": 11,
+          "type": "fontSize",
+          "description": ".6875rem"
+        },
+        "2xs": {
+          "value": 12,
+          "type": "fontSize",
+          "description": ".75rem"
+        },
+        "xs": {
+          "value": 13,
+          "type": "fontSize",
+          "description": ".8125rem"
+        },
+        "base": {
+          "value": 15,
+          "type": "fontSize",
+          "description": ".9375rem"
+        },
+        "md": {
+          "value": 17,
+          "type": "fontSize",
+          "description": "1.0625rem"
+        },
+        "lg": {
+          "value": 20,
+          "type": "fontSize",
+          "description": "1.25rem"
+        },
+        "xl": {
+          "value": 22,
+          "type": "fontSize",
+          "description": "1.375rem"
+        },
+        "2xl": {
+          "value": 26,
+          "type": "fontSize",
+          "description": "1.625rem"
+        },
+        "3xl": {
+          "value": 28,
+          "type": "fontSize",
+          "description": "1.75rem"
+        }
+      },
+      "lineHeight": {
+        "tight": {
+          "value": 1.2,
+          "type": "lineHeight"
+        },
+        "normal": {
+          "value": 1.5,
+          "type": "lineHeight"
+        },
+        "loose": {
+          "value": 1.75,
+          "type": "lineHeight"
+        }
+      },
+      "fontWeight": {
+        "regular": {
+          "value": 400,
+          "type": "fontWeight"
+        },
+        "medium": {
+          "value": 500,
+          "type": "fontWeight"
+        },
+        "semibold": {
+          "value": 600,
+          "type": "fontWeight"
+        },
+        "bold": {
+          "value": 700,
+          "type": "fontWeight"
         }
       }
     },
     "spacing": {
       "0": {
         "value": 0,
-        "type": "number",
-        "$extensions": {
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ]
-        },
+        "type": "spacing",
         "description": "0rem"
       },
       "1": {
         "value": 8,
-        "type": "number",
-        "$extensions": {
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ]
-        },
+        "type": "spacing",
         "description": ".5rem"
       },
       "2": {
         "value": 16,
-        "type": "number",
-        "$extensions": {
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ]
-        },
+        "type": "spacing",
         "description": "1rem"
       },
       "3": {
         "value": 24,
-        "type": "number",
-        "$extensions": {
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ]
-        },
+        "type": "spacing",
         "description": "1.5rem"
       },
       "4": {
         "value": 32,
-        "type": "number",
-        "$extensions": {
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ]
-        },
+        "type": "spacing",
         "description": "2rem"
       },
       "5": {
         "value": 40,
-        "type": "number",
-        "$extensions": {
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ]
-        },
+        "type": "spacing",
         "description": "2.5rem"
       },
       "6": {
         "value": 48,
-        "type": "number",
-        "$extensions": {
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ]
-        },
+        "type": "spacing",
         "description": "3rem"
       },
       "8": {
         "value": 64,
-        "type": "number",
-        "$extensions": {
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ]
-        },
+        "type": "spacing",
         "description": "4rem"
       },
       "10": {
         "value": 80,
-        "type": "number",
-        "$extensions": {
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ]
-        },
+        "type": "spacing",
         "description": "5rem"
       },
       "12": {
         "value": 96,
-        "type": "number",
-        "$extensions": {
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ]
-        },
+        "type": "spacing",
         "description": "6rem"
       },
       "16": {
         "value": 128,
-        "type": "number",
-        "$extensions": {
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ]
-        },
+        "type": "spacing",
         "description": "8rem"
       }
     },
     "radius": {
       "base": {
-        "value": 6,
-        "type": "number",
-        "$extensions": {
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ]
-        },
+        "value": "6px",
+        "type": "borderRadius",
         "description": ".375rem"
       },
       "sm": {
-        "value": 4,
-        "type": "number",
-        "$extensions": {
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ]
-        },
+        "value": "4px",
+        "type": "borderRadius",
         "description": ".25rem"
       },
       "lg": {
-        "value": 8,
-        "type": "number",
-        "$extensions": {
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ]
-        },
+        "value": "8px",
+        "type": "borderRadius",
         "description": ".5rem"
       },
       "xl": {
-        "value": 16,
-        "type": "number",
-        "$extensions": {
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ]
-        },
+        "value": "16px",
+        "type": "borderRadius",
         "description": "1rem"
       },
       "xxl": {
-        "value": 32,
-        "type": "number",
-        "$extensions": {
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ]
-        },
+        "value": "32px",
+        "type": "borderRadius",
         "description": "2rem"
       },
       "pill": {
-        "value": 9999,
-        "type": "number",
-        "$extensions": {
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ]
-        },
+        "value": "9999px",
+        "type": "borderRadius",
         "description": "50rem"
       }
     },
     "borderWidth": {
       "0": {
         "value": 0,
-        "type": "number",
-        "$extensions": {
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ]
-        }
+        "type": "borderWidth"
       },
       "1": {
         "value": 1,
-        "type": "number",
-        "$extensions": {
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ]
-        }
+        "type": "borderWidth"
       },
       "2": {
         "value": 2,
-        "type": "number",
-        "$extensions": {
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ]
-        }
+        "type": "borderWidth"
       }
     },
     "opacity": {
       "0": {
-        "value": 0,
-        "type": "number",
-        "$extensions": {
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ]
-        },
+        "value": "0",
+        "type": "opacity",
         "description": "0% — completamente transparente"
       },
       "10": {
-        "value": 10,
-        "type": "number",
-        "$extensions": {
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ]
-        },
+        "value": "0.1",
+        "type": "opacity",
         "description": "10%"
       },
       "25": {
-        "value": 25,
-        "type": "number",
-        "$extensions": {
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ]
-        },
+        "value": "0.25",
+        "type": "opacity",
         "description": "25%"
       },
       "50": {
-        "value": 50,
-        "type": "number",
-        "$extensions": {
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ]
-        },
+        "value": "0.5",
+        "type": "opacity",
         "description": "50%"
       },
       "75": {
-        "value": 75,
-        "type": "number",
-        "$extensions": {
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ]
-        },
+        "value": "0.75",
+        "type": "opacity",
         "description": "75%"
       },
       "100": {
-        "value": 100,
-        "type": "number",
-        "$extensions": {
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ]
-        },
+        "value": "1",
+        "type": "opacity",
         "description": "100% — completamente opaco"
       }
     },
-    "JDA - Default": {
-      "brand": {
-        "primary": {
-          "value": "#087021",
-          "type": "color",
-          "description": "Color principal corporativo (verde)."
-        },
-        "primaryHover": {
-          "value": "#0b4c1a",
-          "type": "color",
-          "description": "Hover/active sobre principal."
-        },
-        "support": {
-          "value": "#c4ddca",
-          "type": "color",
-          "description": "Verde apoyo (fondo suave)."
-        },
-        "surface": {
-          "value": "#f7fbf8",
-          "type": "color",
-          "description": "Apoyo específico (muy sutil)."
-        },
-        "white": {
-          "value": "#ffffff",
-          "type": "color",
-          "description": "Blanco."
-        }
-      },
-      "neutral": {
-        "100": {
-          "value": "#f5f5f5",
-          "type": "color",
-          "description": "Fondo específico (muy claro)."
-        },
-        "200": {
-          "value": "#eeeeee",
-          "type": "color",
-          "description": "Contenedor (fondo)."
-        },
-        "300": {
-          "value": "#bebebe",
-          "type": "color",
-          "description": "Bordes/auxiliar."
-        },
-        "900": {
-          "value": "#111111",
-          "type": "color",
-          "description": "Texto principal."
-        }
-      },
-      "state": {
-        "success": {
-          "value": "#198754",
-          "type": "color",
-          "description": "Éxito"
-        },
-        "info": {
-          "value": "#0dcaf0",
-          "type": "color",
-          "description": "Información"
-        },
-        "warning": {
-          "value": "#ffc107",
-          "type": "color",
-          "description": "Advertencia"
-        },
-        "danger": {
-          "value": "#dc3545",
-          "type": "color",
-          "description": "Error"
-        }
-      },
+    "shadow": {
       "sm": {
-        "type": "boxShadow"
+        "value": "0 1px 2px 0 rgba(0,0,0,0.05)",
+        "type": "boxShadow",
+        "description": "Sombra sutil — tarjetas, inputs"
       },
       "md": {
-        "type": "boxShadow"
+        "value": "0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06)",
+        "type": "boxShadow",
+        "description": "Sombra media — dropdowns, popovers"
       },
       "lg": {
-        "type": "boxShadow"
+        "value": "0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05)",
+        "type": "boxShadow",
+        "description": "Sombra grande — modales, sidebars"
       },
       "xl": {
-        "type": "boxShadow"
-      },
-      "fontFamily": {
-        "heading": {
-          "value": {
-            "fontFamily": "{fontFamilies.inter}",
-            "fontWeight": "{fontWeights.inter-0}",
-            "lineHeight": "{lineHeights.0}",
-            "fontSize": "{fontSize.0}",
-            "letterSpacing": "{letterSpacing.0}",
-            "paragraphSpacing": "{paragraphSpacing.0}",
-            "paragraphIndent": "{paragraphIndent.0}",
-            "textCase": "{textCase.none}",
-            "textDecoration": "{textDecoration.none}"
-          },
-          "type": "typography"
-        },
-        "icons": {
-          "value": {
-            "fontFamily": "{fontFamilies.inter}",
-            "fontWeight": "{fontWeights.inter-0}",
-            "lineHeight": "{lineHeights.0}",
-            "fontSize": "{fontSize.0}",
-            "letterSpacing": "{letterSpacing.0}",
-            "paragraphSpacing": "{paragraphSpacing.0}",
-            "paragraphIndent": "{paragraphIndent.0}",
-            "textCase": "{textCase.none}",
-            "textDecoration": "{textDecoration.none}"
-          },
-          "type": "typography"
-        }
-      },
-      "fontSize": {
-        "3xs": {
-          "value": {
-            "fontFamily": "{fontFamilies.inter}",
-            "fontWeight": "{fontWeights.inter-0}",
-            "lineHeight": "{lineHeights.0}",
-            "fontSize": "{fontSize.0}",
-            "letterSpacing": "{letterSpacing.0}",
-            "paragraphSpacing": "{paragraphSpacing.0}",
-            "paragraphIndent": "{paragraphIndent.0}",
-            "textCase": "{textCase.none}",
-            "textDecoration": "{textDecoration.none}"
-          },
-          "type": "typography"
-        },
-        "2xs": {
-          "value": {
-            "fontFamily": "{fontFamilies.inter}",
-            "fontWeight": "{fontWeights.inter-0}",
-            "lineHeight": "{lineHeights.0}",
-            "fontSize": "{fontSize.0}",
-            "letterSpacing": "{letterSpacing.0}",
-            "paragraphSpacing": "{paragraphSpacing.0}",
-            "paragraphIndent": "{paragraphIndent.0}",
-            "textCase": "{textCase.none}",
-            "textDecoration": "{textDecoration.none}"
-          },
-          "type": "typography"
-        },
-        "xs": {
-          "value": {
-            "fontFamily": "{fontFamilies.inter}",
-            "fontWeight": "{fontWeights.inter-0}",
-            "lineHeight": "{lineHeights.0}",
-            "fontSize": "{fontSize.0}",
-            "letterSpacing": "{letterSpacing.0}",
-            "paragraphSpacing": "{paragraphSpacing.0}",
-            "paragraphIndent": "{paragraphIndent.0}",
-            "textCase": "{textCase.none}",
-            "textDecoration": "{textDecoration.none}"
-          },
-          "type": "typography"
-        },
-        "base": {
-          "value": {
-            "fontFamily": "{fontFamilies.inter}",
-            "fontWeight": "{fontWeights.inter-0}",
-            "lineHeight": "{lineHeights.0}",
-            "fontSize": "{fontSize.0}",
-            "letterSpacing": "{letterSpacing.0}",
-            "paragraphSpacing": "{paragraphSpacing.0}",
-            "paragraphIndent": "{paragraphIndent.0}",
-            "textCase": "{textCase.none}",
-            "textDecoration": "{textDecoration.none}"
-          },
-          "type": "typography"
-        },
-        "md": {
-          "value": {
-            "fontFamily": "{fontFamilies.inter}",
-            "fontWeight": "{fontWeights.inter-0}",
-            "lineHeight": "{lineHeights.0}",
-            "fontSize": "{fontSize.0}",
-            "letterSpacing": "{letterSpacing.0}",
-            "paragraphSpacing": "{paragraphSpacing.0}",
-            "paragraphIndent": "{paragraphIndent.0}",
-            "textCase": "{textCase.none}",
-            "textDecoration": "{textDecoration.none}"
-          },
-          "type": "typography"
-        },
-        "lg": {
-          "value": {
-            "fontFamily": "{fontFamilies.inter}",
-            "fontWeight": "{fontWeights.inter-0}",
-            "lineHeight": "{lineHeights.0}",
-            "fontSize": "{fontSize.0}",
-            "letterSpacing": "{letterSpacing.0}",
-            "paragraphSpacing": "{paragraphSpacing.0}",
-            "paragraphIndent": "{paragraphIndent.0}",
-            "textCase": "{textCase.none}",
-            "textDecoration": "{textDecoration.none}"
-          },
-          "type": "typography"
-        },
-        "xl": {
-          "value": {
-            "fontFamily": "{fontFamilies.inter}",
-            "fontWeight": "{fontWeights.inter-0}",
-            "lineHeight": "{lineHeights.0}",
-            "fontSize": "{fontSize.0}",
-            "letterSpacing": "{letterSpacing.0}",
-            "paragraphSpacing": "{paragraphSpacing.0}",
-            "paragraphIndent": "{paragraphIndent.0}",
-            "textCase": "{textCase.none}",
-            "textDecoration": "{textDecoration.none}"
-          },
-          "type": "typography"
-        },
-        "2xl": {
-          "value": {
-            "fontFamily": "{fontFamilies.inter}",
-            "fontWeight": "{fontWeights.inter-0}",
-            "lineHeight": "{lineHeights.0}",
-            "fontSize": "{fontSize.0}",
-            "letterSpacing": "{letterSpacing.0}",
-            "paragraphSpacing": "{paragraphSpacing.0}",
-            "paragraphIndent": "{paragraphIndent.0}",
-            "textCase": "{textCase.none}",
-            "textDecoration": "{textDecoration.none}"
-          },
-          "type": "typography"
-        },
-        "3xl": {
-          "value": {
-            "fontFamily": "{fontFamilies.inter}",
-            "fontWeight": "{fontWeights.inter-0}",
-            "lineHeight": "{lineHeights.0}",
-            "fontSize": "{fontSize.0}",
-            "letterSpacing": "{letterSpacing.0}",
-            "paragraphSpacing": "{paragraphSpacing.0}",
-            "paragraphIndent": "{paragraphIndent.0}",
-            "textCase": "{textCase.none}",
-            "textDecoration": "{textDecoration.none}"
-          },
-          "type": "typography"
-        }
-      },
-      "lineHeight": {
-        "tight": {
-          "value": {
-            "fontFamily": "{fontFamilies.inter}",
-            "fontWeight": "{fontWeights.inter-0}",
-            "lineHeight": "{lineHeights.0}",
-            "fontSize": "{fontSize.0}",
-            "letterSpacing": "{letterSpacing.0}",
-            "paragraphSpacing": "{paragraphSpacing.0}",
-            "paragraphIndent": "{paragraphIndent.0}",
-            "textCase": "{textCase.none}",
-            "textDecoration": "{textDecoration.none}"
-          },
-          "type": "typography"
-        },
-        "normal": {
-          "value": {
-            "fontFamily": "{fontFamilies.inter}",
-            "fontWeight": "{fontWeights.inter-0}",
-            "lineHeight": "{lineHeights.0}",
-            "fontSize": "{fontSize.0}",
-            "letterSpacing": "{letterSpacing.0}",
-            "paragraphSpacing": "{paragraphSpacing.0}",
-            "paragraphIndent": "{paragraphIndent.0}",
-            "textCase": "{textCase.none}",
-            "textDecoration": "{textDecoration.none}"
-          },
-          "type": "typography"
-        },
-        "loose": {
-          "value": {
-            "fontFamily": "{fontFamilies.inter}",
-            "fontWeight": "{fontWeights.inter-0}",
-            "lineHeight": "{lineHeights.0}",
-            "fontSize": "{fontSize.0}",
-            "letterSpacing": "{letterSpacing.0}",
-            "paragraphSpacing": "{paragraphSpacing.0}",
-            "paragraphIndent": "{paragraphIndent.0}",
-            "textCase": "{textCase.none}",
-            "textDecoration": "{textDecoration.none}"
-          },
-          "type": "typography"
-        }
-      },
-      "fontWeight": {
-        "regular": {
-          "value": {
-            "fontFamily": "{fontFamilies.inter}",
-            "fontWeight": "{fontWeights.inter-0}",
-            "lineHeight": "{lineHeights.0}",
-            "fontSize": "{fontSize.0}",
-            "letterSpacing": "{letterSpacing.0}",
-            "paragraphSpacing": "{paragraphSpacing.0}",
-            "paragraphIndent": "{paragraphIndent.0}",
-            "textCase": "{textCase.none}",
-            "textDecoration": "{textDecoration.none}"
-          },
-          "type": "typography"
-        },
-        "medium": {
-          "value": {
-            "fontFamily": "{fontFamilies.inter}",
-            "fontWeight": "{fontWeights.inter-0}",
-            "lineHeight": "{lineHeights.0}",
-            "fontSize": "{fontSize.0}",
-            "letterSpacing": "{letterSpacing.0}",
-            "paragraphSpacing": "{paragraphSpacing.0}",
-            "paragraphIndent": "{paragraphIndent.0}",
-            "textCase": "{textCase.none}",
-            "textDecoration": "{textDecoration.none}"
-          },
-          "type": "typography"
-        },
-        "semibold": {
-          "value": {
-            "fontFamily": "{fontFamilies.inter}",
-            "fontWeight": "{fontWeights.inter-0}",
-            "lineHeight": "{lineHeights.0}",
-            "fontSize": "{fontSize.0}",
-            "letterSpacing": "{letterSpacing.0}",
-            "paragraphSpacing": "{paragraphSpacing.0}",
-            "paragraphIndent": "{paragraphIndent.0}",
-            "textCase": "{textCase.none}",
-            "textDecoration": "{textDecoration.none}"
-          },
-          "type": "typography"
-        },
-        "bold": {
-          "value": {
-            "fontFamily": "{fontFamilies.inter}",
-            "fontWeight": "{fontWeights.inter-0}",
-            "lineHeight": "{lineHeights.0}",
-            "fontSize": "{fontSize.0}",
-            "letterSpacing": "{letterSpacing.0}",
-            "paragraphSpacing": "{paragraphSpacing.0}",
-            "paragraphIndent": "{paragraphIndent.0}",
-            "textCase": "{textCase.none}",
-            "textDecoration": "{textDecoration.none}"
-          },
-          "type": "typography"
-        }
-      }
-    },
-    "fontFamilies": {
-      "inter": {
-        "value": "Inter",
-        "type": "fontFamilies"
-      }
-    },
-    "lineHeights": {
-      "0": {
-        "value": "AUTO",
-        "type": "lineHeights"
-      },
-      "1": {
-        "value": "AUTO",
-        "type": "lineHeights"
-      },
-      "2": {
-        "value": "AUTO",
-        "type": "lineHeights"
-      },
-      "3": {
-        "value": "AUTO",
-        "type": "lineHeights"
-      },
-      "4": {
-        "value": "AUTO",
-        "type": "lineHeights"
-      },
-      "5": {
-        "value": "AUTO",
-        "type": "lineHeights"
-      },
-      "6": {
-        "value": "AUTO",
-        "type": "lineHeights"
-      },
-      "7": {
-        "value": "AUTO",
-        "type": "lineHeights"
-      },
-      "8": {
-        "value": "AUTO",
-        "type": "lineHeights"
-      },
-      "9": {
-        "value": "AUTO",
-        "type": "lineHeights"
-      },
-      "10": {
-        "value": "AUTO",
-        "type": "lineHeights"
-      },
-      "11": {
-        "value": "AUTO",
-        "type": "lineHeights"
-      },
-      "12": {
-        "value": "AUTO",
-        "type": "lineHeights"
-      },
-      "13": {
-        "value": "AUTO",
-        "type": "lineHeights"
-      },
-      "14": {
-        "value": "AUTO",
-        "type": "lineHeights"
-      },
-      "15": {
-        "value": "AUTO",
-        "type": "lineHeights"
-      },
-      "16": {
-        "value": "AUTO",
-        "type": "lineHeights"
-      },
-      "17": {
-        "value": "AUTO",
-        "type": "lineHeights"
-      },
-      "18": {
-        "value": "AUTO",
-        "type": "lineHeights"
-      },
-      "19": {
-        "value": "AUTO",
-        "type": "lineHeights"
-      }
-    },
-    "fontWeights": {
-      "inter-0": {
-        "value": "Regular",
-        "type": "fontWeights"
-      }
-    },
-    "fontSize": {
-      "0": {
-        "value": 12,
-        "type": "fontSizes"
-      }
-    },
-    "letterSpacing": {
-      "0": {
-        "value": "0%",
-        "type": "letterSpacing"
-      }
-    },
-    "paragraphSpacing": {
-      "0": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      }
-    },
-    "Typography": {
-      "Body": {
-        "base": {
-          "value": {
-            "fontFamily": "{fontFamilies.inter}",
-            "fontWeight": "{fontWeights.inter-0}",
-            "lineHeight": "{lineHeights.0}",
-            "fontSize": "{fontSize.0}",
-            "letterSpacing": "{letterSpacing.0}",
-            "paragraphSpacing": "{paragraphSpacing.0}",
-            "paragraphIndent": "{paragraphIndent.0}",
-            "textCase": "{textCase.none}",
-            "textDecoration": "{textDecoration.none}"
-          },
-          "type": "typography"
-        },
-        "Default": {
-          "value": {
-            "fontFamily": "{fontFamilies.inter}",
-            "fontWeight": "{fontWeights.inter-0}",
-            "lineHeight": "{lineHeights.0}",
-            "fontSize": "{fontSize.0}",
-            "letterSpacing": "{letterSpacing.0}",
-            "paragraphSpacing": "{paragraphSpacing.0}",
-            "paragraphIndent": "{paragraphIndent.0}",
-            "textCase": "{textCase.none}",
-            "textDecoration": "{textDecoration.none}"
-          },
-          "type": "typography"
-        }
-      }
-    },
-    "textCase": {
-      "none": {
-        "value": "none",
-        "type": "textCase"
-      }
-    },
-    "textDecoration": {
-      "none": {
-        "value": "none",
-        "type": "textDecoration"
-      }
-    },
-    "paragraphIndent": {
-      "0": {
-        "value": "0px",
-        "type": "dimension"
+        "value": "0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04)",
+        "type": "boxShadow",
+        "description": "Sombra extra grande — overlays flotantes"
       }
     }
   },
-  "semantic/semantic": {
+  "semantic": {
     "typography": {
       "body": {
+        "fontFamily": {
+          "value": "{primitive.typography.fontFamily.base}",
+          "type": "fontFamily"
+        },
+        "fontSize": {
+          "value": "{primitive.typography.fontSize.base}",
+          "type": "fontSize"
+        },
+        "lineHeight": {
+          "value": "{primitive.typography.lineHeight.normal}",
+          "type": "lineHeight"
+        },
+        "fontWeight": {
+          "value": "{primitive.typography.fontWeight.regular}",
+          "type": "fontWeight"
+        },
         "color": {
-          "value": "{color.neutral.900}",
-          "type": "color",
-          "$extensions": {
-            "com.figma.scopes": [
-              "ALL_SCOPES"
-            ]
-          }
+          "value": "{primitive.color.neutral.900}",
+          "type": "color"
         }
       }
     },
     "color": {
       "text": {
         "default": {
-          "value": "#111111",
-          "type": "color",
-          "$extensions": {
-            "com.figma.scopes": [
-              "ALL_SCOPES"
-            ]
-          }
+          "value": "{primitive.color.neutral.900}",
+          "type": "color"
+        },
+        "display": {
+          "value": "{primitive.color.neutral.900}",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "{primitive.color.brand.white}",
+          "type": "color"
         }
       },
       "link": {
         "inline": {
-          "value": "{color.brand.primary}",
-          "type": "color",
-          "$extensions": {
-            "com.figma.scopes": [
-              "ALL_SCOPES"
-            ]
-          }
+          "value": "{primitive.color.brand.primary}",
+          "type": "color"
         },
         "display": {
-          "value": "{color.neutral.900}",
-          "type": "color",
-          "$extensions": {
-            "com.figma.scopes": [
-              "ALL_SCOPES"
-            ]
-          }
+          "value": "{primitive.color.neutral.900}",
+          "type": "color"
         },
         "inverse": {
-          "value": "{color.brand.white}",
-          "type": "color",
-          "$extensions": {
-            "com.figma.scopes": [
-              "ALL_SCOPES"
-            ]
-          }
+          "value": "{primitive.color.brand.white}",
+          "type": "color"
         },
         "hover": {
           "inline": {
-            "value": "{color.brand.primaryHover}",
-            "type": "color",
-            "$extensions": {
-              "com.figma.scopes": [
-                "ALL_SCOPES"
-              ]
-            }
+            "value": "{primitive.color.brand.primaryHover}",
+            "type": "color"
           },
           "display": {
-            "value": "{color.brand.primaryHover}",
-            "type": "color",
-            "$extensions": {
-              "com.figma.scopes": [
-                "ALL_SCOPES"
-              ]
-            }
+            "value": "{primitive.color.brand.primaryHover}",
+            "type": "color"
           },
           "inverse": {
-            "value": "{color.brand.white}",
-            "type": "color",
-            "$extensions": {
-              "com.figma.scopes": [
-                "ALL_SCOPES"
-              ]
-            }
+            "value": "{primitive.color.brand.white}",
+            "type": "color"
           }
         }
       }
@@ -999,121 +398,160 @@
     "interaction": {
       "link": {
         "hoverUnderline": {
-          "value": "true",
-          "type": "boolean",
-          "$extensions": {
-            "com.figma.scopes": [
-              "ALL_SCOPES"
-            ]
-          }
+          "value": true,
+          "type": "boolean"
         }
       }
     }
   },
-  "components/components": {
+  "components": {
     "paragraph": {
+      "fontFamily": {
+        "value": "{semantic.typography.body.fontFamily}",
+        "type": "fontFamily"
+      },
+      "fontSize": {
+        "value": "{semantic.typography.body.fontSize}",
+        "type": "fontSize"
+      },
+      "lineHeight": {
+        "value": "{semantic.typography.body.lineHeight}",
+        "type": "lineHeight"
+      },
+      "fontWeight": {
+        "value": "{semantic.typography.body.fontWeight}",
+        "type": "fontWeight"
+      },
       "color": {
-        "value": "{typography.body.color}",
-        "type": "color",
-        "$extensions": {
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ]
-        }
+        "value": "{semantic.typography.body.color}",
+        "type": "color"
       }
     },
     "link": {
+      "typography": {
+        "fontFamily": {
+          "value": "{primitive.typography.fontFamily.base}",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "{primitive.typography.fontWeight.regular}",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "{primitive.typography.lineHeight.normal}",
+          "type": "lineHeight"
+        }
+      },
+      "size": {
+        "3xs": {
+          "fontSize": {
+            "value": "{primitive.typography.fontSize.3xs}",
+            "type": "fontSize"
+          }
+        },
+        "2xs": {
+          "fontSize": {
+            "value": "{primitive.typography.fontSize.2xs}",
+            "type": "fontSize"
+          }
+        },
+        "xs": {
+          "fontSize": {
+            "value": "{primitive.typography.fontSize.xs}",
+            "type": "fontSize"
+          }
+        },
+        "base": {
+          "fontSize": {
+            "value": "{primitive.typography.fontSize.base}",
+            "type": "fontSize"
+          }
+        },
+        "md": {
+          "fontSize": {
+            "value": "{primitive.typography.fontSize.md}",
+            "type": "fontSize"
+          }
+        },
+        "lg": {
+          "fontSize": {
+            "value": "{primitive.typography.fontSize.lg}",
+            "type": "fontSize"
+          }
+        },
+        "xl": {
+          "fontSize": {
+            "value": "{primitive.typography.fontSize.xl}",
+            "type": "fontSize"
+          }
+        },
+        "2xl": {
+          "fontSize": {
+            "value": "{primitive.typography.fontSize.2xl}",
+            "type": "fontSize"
+          }
+        },
+        "3xl": {
+          "fontSize": {
+            "value": "{primitive.typography.fontSize.3xl}",
+            "type": "fontSize"
+          }
+        }
+      },
       "variant": {
         "inline": {
           "color": {
-            "value": "{color.brand.primary}",
-            "type": "color",
-            "$extensions": {
-              "com.figma.scopes": [
-                "ALL_SCOPES"
-              ]
-            }
+            "value": "{semantic.color.link.inline}",
+            "type": "color"
           },
           "hoverColor": {
-            "value": "{color.brand.primaryHover}",
-            "type": "color",
-            "$extensions": {
-              "com.figma.scopes": [
-                "ALL_SCOPES"
-              ]
-            }
+            "value": "{semantic.color.link.hover.inline}",
+            "type": "color"
           }
         },
         "display": {
           "color": {
-            "value": "{color.neutral.900}",
-            "type": "color",
-            "$extensions": {
-              "com.figma.scopes": [
-                "ALL_SCOPES"
-              ]
-            }
+            "value": "{semantic.color.link.display}",
+            "type": "color"
           },
           "hoverColor": {
-            "value": "{color.brand.primaryHover}",
-            "type": "color",
-            "$extensions": {
-              "com.figma.scopes": [
-                "ALL_SCOPES"
-              ]
-            }
+            "value": "{semantic.color.link.hover.display}",
+            "type": "color"
           }
         },
         "inverse": {
           "color": {
-            "value": "{color.link.inverse}",
-            "type": "color",
-            "$extensions": {
-              "com.figma.scopes": [
-                "ALL_SCOPES"
-              ]
-            }
+            "value": "{semantic.color.link.inverse}",
+            "type": "color"
           },
           "hoverColor": {
-            "value": "{color.link.hover.inverse}",
-            "type": "color",
-            "$extensions": {
-              "com.figma.scopes": [
-                "ALL_SCOPES"
-              ]
-            }
+            "value": "{semantic.color.link.hover.inverse}",
+            "type": "color"
           }
         }
       },
       "decoration": {
         "hoverUnderline": {
-          "value": "false",
-          "type": "boolean",
-          "$extensions": {
-            "com.figma.scopes": [
-              "ALL_SCOPES"
-            ]
-          }
+          "value": "{semantic.interaction.link.hoverUnderline}",
+          "type": "boolean"
         }
       },
       "icon": {
         "enabled": {
-          "value": "false",
-          "type": "boolean",
-          "$extensions": {
-            "com.figma.scopes": [
-              "ALL_SCOPES"
-            ]
-          }
+          "value": false,
+          "type": "boolean"
+        },
+        "fontFamily": {
+          "value": "{primitive.typography.fontFamily.icons}",
+          "type": "fontFamily"
         },
         "gap": {
-          "value": "{spacing.1}",
-          "type": "number",
-          "$extensions": {
-            "com.figma.scopes": [
-              "ALL_SCOPES"
-            ]
-          }
+          "value": "{primitive.spacing.1}",
+          "type": "spacing"
+        },
+        "size": {
+          "value": "{primitive.typography.fontSize.base}",
+          "type": "fontSize"
         }
       }
     }
@@ -1131,9 +569,9 @@
   ],
   "$metadata": {
     "tokenSetOrder": [
-      "primitive/primitive",
-      "semantic/semantic",
-      "components/components"
+      "primitive",
+      "semantic",
+      "components"
     ]
   }
 }
