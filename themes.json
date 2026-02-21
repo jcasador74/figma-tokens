@@ -525,7 +525,7 @@
           "type": "typography",
           "description": ".8125rem"
         },
-        "sm": {
+        "base": {
           "value": 15,
           "type": "typography",
           "description": ".9375rem"
