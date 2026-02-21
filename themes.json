@@ -256,6 +256,60 @@
           "type": "fontWeights"
         }
       }
+    },
+    "opacity": {
+      "0": {
+        "value": "0",
+        "type": "opacity",
+        "description": "0% — completamente transparente"
+      },
+      "10": {
+        "value": "0.1",
+        "type": "opacity",
+        "description": "10%"
+      },
+      "25": {
+        "value": "0.25",
+        "type": "opacity",
+        "description": "25%"
+      },
+      "50": {
+        "value": "0.5",
+        "type": "opacity",
+        "description": "50%"
+      },
+      "75": {
+        "value": "0.75",
+        "type": "opacity",
+        "description": "75%"
+      },
+      "100": {
+        "value": "1",
+        "type": "opacity",
+        "description": "100% — completamente opaco"
+      }
+    },
+    "shadow": {
+      "sm": {
+        "value": "0 1px 2px 0 rgba(0,0,0,0.05)",
+        "type": "boxShadow",
+        "description": "Sombra sutil — tarjetas, inputs"
+      },
+      "md": {
+        "value": "0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06)",
+        "type": "boxShadow",
+        "description": "Sombra media — dropdowns, popovers"
+      },
+      "lg": {
+        "value": "0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05)",
+        "type": "boxShadow",
+        "description": "Sombra grande — modales, sidebars"
+      },
+      "xl": {
+        "value": "0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04)",
+        "type": "boxShadow",
+        "description": "Sombra extra grande — overlays flotantes"
+      }
     }
   },
   "semantic": {
