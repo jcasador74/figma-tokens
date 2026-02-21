@@ -155,19 +155,15 @@
       },
       "fontWeight": {
         "regular": {
-          "value": 400,
-          "type": "text"
-        },
-        "medium": {
-          "value": 500,
+          "value": "Regular",
           "type": "text"
         },
         "semibold": {
-          "value": 600,
+          "value": "SemiBold",
           "type": "text"
         },
         "bold": {
-          "value": 700,
+          "value": "Bold",
           "type": "text"
         }
       }
