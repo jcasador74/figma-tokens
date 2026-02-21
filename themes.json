@@ -77,94 +77,94 @@
       "fontFamily": {
         "base": {
           "value": "Source Sans Pro",
-          "type": "typography"
+          "type": "fontFamily"
         },
         "heading": {
           "value": "Montserrat",
-          "type": "typography"
+          "type": "fontFamily"
         },
         "icons": {
           "value": "Font Awesome 6 Free",
-          "type": "typography"
+          "type": "fontFamily"
         }
       },
       "fontSize": {
         "3xs": {
           "value": 11,
-          "type": "typography",
-          "description": ".8125rem"
+          "type": "fontSize",
+          "description": ".6875rem"
         },
         "2xs": {
           "value": 12,
-          "type": "typography",
-          "description": ".8125rem"
+          "type": "fontSize",
+          "description": ".75rem"
         },
         "xs": {
           "value": 13,
-          "type": "typography",
+          "type": "fontSize",
           "description": ".8125rem"
         },
         "base": {
           "value": 15,
-          "type": "typography",
+          "type": "fontSize",
           "description": ".9375rem"
         },
         "md": {
           "value": 17,
-          "type": "typography",
+          "type": "fontSize",
           "description": "1.0625rem"
         },
         "lg": {
           "value": 20,
-          "type": "typography",
+          "type": "fontSize",
           "description": "1.25rem"
         },
         "xl": {
           "value": 22,
-          "type": "typography",
+          "type": "fontSize",
           "description": "1.375rem"
         },
         "2xl": {
           "value": 26,
-          "type": "typography",
+          "type": "fontSize",
           "description": "1.625rem"
         },
         "3xl": {
           "value": 28,
-          "type": "typography",
+          "type": "fontSize",
           "description": "1.75rem"
         }
       },
       "lineHeight": {
         "tight": {
           "value": 1.2,
-          "type": "typography"
+          "type": "lineHeight"
         },
         "normal": {
           "value": 1.5,
-          "type": "typography"
+          "type": "lineHeight"
         },
         "loose": {
           "value": 1.75,
-          "type": "typography"
+          "type": "lineHeight"
         }
       },
       "fontWeight": {
         "regular": {
           "value": 400,
-          "type": "typography"
+          "type": "fontWeight"
         },
         "medium": {
           "value": 500,
-          "type": "typography"
+          "type": "fontWeight"
         },
         "semibold": {
           "value": 600,
-          "type": "typography"
+          "type": "fontWeight"
         },
         "bold": {
           "value": 700,
-          "type": "typography"
+          "type": "fontWeight"
         }
       }
     },
@@ -354,7 +354,7 @@
     "color": {
       "text": {
         "default": {
-          "value": "{primitive.color.brand.primary}",
+          "value": "{primitive.color.neutral.900}",
           "type": "color"
         },
         "display": {
@@ -372,7 +372,7 @@
           "type": "color"
         },
         "display": {
-          "value": "{primitive.color.brand.primary}",
+          "value": "{primitive.color.neutral.900}",
           "type": "color"
         },
         "inverse": {
