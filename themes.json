@@ -73,7 +73,7 @@
         }
       }
     },
-    "tipography": {
+    "typography": {
       "fontFamily": {
         "base": {
           "value": "Source Sans Pro",
