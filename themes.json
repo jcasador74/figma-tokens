@@ -168,6 +168,19 @@
         }
       }
     },
+    "Typo": {
+      "fontFamily": {
+        "base": {
+          "value": "Source Sans Pro",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          }
+        }
+      }
+    },
     "spacing": {
       "0": {
         "value": 0,
