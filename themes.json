@@ -78,17 +78,6 @@
       "fontFamily": {
         "base": {
           "value": "Source Sans Pro",
-          "type": "text",
-          "$extensions": {
-            "com.figma.scopes": [
-              "ALL_SCOPES"
-            ]
-          }
-        }
-      },
-      "fontFamily": {
-        "base": {
-          "value": "Source Sans Pro",
           "type": "text"
         },
         "heading": {
@@ -148,17 +137,20 @@
         }
       },
       "lineHeight": {
-        "tight": {
-          "value": 1.2,
-          "type": "number"
+        "sm": {
+          "value": 19.2,
+          "type": "number",
+          "description": "1.2"
         },
-        "normal": {
-          "value": 1.5,
-          "type": "number"
+        "base": {
+          "value": 24,
+          "type": "number",
+          "description": "1.5"
         },
-        "loose": {
-          "value": 1.75,
-          "type": "number"
+        "lg": {
+          "value": 28,
+          "type": "number",
+          "description": "1.75"
         }
       },
       "fontWeight": {
