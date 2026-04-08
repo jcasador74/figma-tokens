@@ -71,6 +71,164 @@
           "type": "color",
           "description": "Error"
         }
+      },
+      "graficos": {
+        "categorias": {
+          "01": {
+            "value": "#4a80bc",
+            "type": "color",
+            "description": "Paleta categórica 01"
+          },
+          "02": {
+            "value": "#615894",
+            "type": "color",
+            "description": "Paleta categórica 02"
+          },
+          "03": {
+            "value": "#f0c733",
+            "type": "color",
+            "description": "Paleta categórica 03"
+          },
+          "04": {
+            "value": "#d23552",
+            "type": "color",
+            "description": "Paleta categórica 04"
+          },
+          "05": {
+            "value": "#e58522",
+            "type": "color",
+            "description": "Paleta categórica 05"
+          },
+          "06": {
+            "value": "#ba77a9",
+            "type": "color",
+            "description": "Paleta categórica 06"
+          },
+          "07": {
+            "value": "#dfc858",
+            "type": "color",
+            "description": "Paleta categórica 07"
+          },
+          "08": {
+            "value": "#cd9d6b",
+            "type": "color",
+            "description": "Paleta categórica 08"
+          },
+          "09": {
+            "value": "#c4df58",
+            "type": "color",
+            "description": "Paleta categórica 09"
+          },
+          "10": {
+            "value": "#7bc739",
+            "type": "color",
+            "description": "Paleta categórica 10"
+          },
+          "11": {
+            "value": "#c76273",
+            "type": "color",
+            "description": "Paleta categórica 11"
+          },
+          "12": {
+            "value": "#69d6de",
+            "type": "color",
+            "description": "Paleta categórica 12"
+          }
+        },
+        "secuencial": {
+          "01": {
+            "value": "#087021",
+            "type": "color",
+            "description": "Paleta secuencial 01"
+          },
+          "02": {
+            "value": "#308137",
+            "type": "color",
+            "description": "Paleta secuencial 02"
+          },
+          "03": {
+            "value": "#4A924C",
+            "type": "color",
+            "description": "Paleta secuencial 03"
+          },
+          "04": {
+            "value": "#63A462",
+            "type": "color",
+            "description": "Paleta secuencial 04"
+          },
+          "05": {
+            "value": "#7AB678",
+            "type": "color",
+            "description": "Paleta secuencial 05"
+          },
+          "06": {
+            "value": "#92C88F",
+            "type": "color",
+            "description": "Paleta secuencial 06"
+          },
+          "07": {
+            "value": "#AADAA6",
+            "type": "color",
+            "description": "Paleta secuencial 07"
+          },
+          "08": {
+            "value": "#C2ECBE",
+            "type": "color",
+            "description": "Paleta secuencial 08"
+          },
+          "09": {
+            "value": "#DAFFD6",
+            "type": "color",
+            "description": "Paleta secuencial 09"
+          }
+        },
+        "divergentes": {
+          "01": {
+            "value": "#087021",
+            "type": "color",
+            "description": "Paleta divergente 01"
+          },
+          "02": {
+            "value": "#658F45",
+            "type": "color",
+            "description": "Paleta divergente 02"
+          },
+          "03": {
+            "value": "#A1AF73",
+            "type": "color",
+            "description": "Paleta divergente 03"
+          },
+          "04": {
+            "value": "#D5D2AA",
+            "type": "color",
+            "description": "Paleta divergente 04"
+          },
+          "05": {
+            "value": "#FFF8E6",
+            "type": "color",
+            "description": "Paleta divergente 05"
+          },
+          "06": {
+            "value": "#F1D1AC",
+            "type": "color",
+            "description": "Paleta divergente 06"
+          },
+          "07": {
+            "value": "#E9A67D",
+            "type": "color",
+            "description": "Paleta divergente 07"
+          },
+          "08": {
+            "value": "#E0765E",
+            "type": "color",
+            "description": "Paleta divergente 08"
+          },
+          "09": {
+            "value": "#DE425B",
+            "type": "color",
+            "description": "Paleta divergente 09"
+          }
+        }
       }
     },
     "typography": {},
