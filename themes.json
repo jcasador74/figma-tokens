@@ -3,326 +3,325 @@
     "color": {
       "brand": {
         "primary": {
-          "value": "#087021",
-          "type": "color",
-          "description": "Color principal corporativo (verde)."
+          "$type": "color",
+          "$value": "#087021",
+          "$description": "Color principal corporativo (verde)."
         },
         "primaryHover": {
-          "value": "#0b4c1a",
-          "type": "color",
-          "description": "Hover/active sobre principal."
+          "$type": "color",
+          "$value": "#0b4c1a",
+          "$description": "Hover/active sobre principal."
         },
         "support": {
-          "value": "#c4ddca",
-          "type": "color",
-          "description": "Verde apoyo (fondo suave)."
+          "$type": "color",
+          "$value": "#c4ddca",
+          "$description": "Verde apoyo (fondo suave)."
         },
         "surface": {
-          "value": "#f7fbf8",
-          "type": "color",
-          "description": "Apoyo específico (muy sutil)."
+          "$type": "color",
+          "$value": "#f7fbf8",
+          "$description": "Apoyo específico (muy sutil)."
         },
         "white": {
-          "value": "#ffffff",
-          "type": "color",
-          "description": "Blanco."
+          "$type": "color",
+          "$value": "#ffffff",
+          "$description": "Blanco."
         }
       },
       "neutral": {
         "100": {
-          "value": "#f5f5f5",
-          "type": "color",
-          "description": "Fondo específico (muy claro)."
+          "$type": "color",
+          "$value": "#f5f5f5",
+          "$description": "Fondo específico (muy claro)."
         },
         "200": {
-          "value": "#eeeeee",
-          "type": "color",
-          "description": "Contenedor (fondo)."
+          "$type": "color",
+          "$value": "#eeeeee",
+          "$description": "Contenedor (fondo)."
         },
         "300": {
-          "value": "#bebebe",
-          "type": "color",
-          "description": "Bordes/auxiliar."
+          "$type": "color",
+          "$value": "#bebebe",
+          "$description": "Bordes/auxiliar."
         },
         "900": {
-          "value": "#111111",
-          "type": "color",
-          "description": "Texto principal."
+          "$type": "color",
+          "$value": "#111111",
+          "$description": "Texto principal."
         }
       },
       "state": {
         "success": {
-          "value": "#198754",
-          "type": "color",
-          "description": "Éxito"
+          "$type": "color",
+          "$value": "#198754",
+          "$description": "Éxito"
         },
         "info": {
-          "value": "#0dcaf0",
-          "type": "color",
-          "description": "Información"
+          "$type": "color",
+          "$value": "#0dcaf0",
+          "$description": "Información"
         },
         "warning": {
-          "value": "#ffc107",
-          "type": "color",
-          "description": "Advertencia"
+          "$type": "color",
+          "$value": "#ffc107",
+          "$description": "Advertencia"
         },
         "danger": {
-          "value": "#dc3545",
-          "type": "color",
-          "description": "Error"
+          "$type": "color",
+          "$value": "#dc3545",
+          "$description": "Error"
         }
       }
     },
-    "typography": {},
     "Typo": {
       "fontFamily": {
         "base": {
-          "value": "Source Sans Pro",
-          "type": "text"
+          "$type": "text",
+          "$value": "Source Sans Pro"
         },
         "heading": {
-          "value": "Montserrat",
-          "type": "text"
+          "$type": "text",
+          "$value": "Montserrat"
         },
         "icons": {
-          "value": "Font Awesome 6 Free",
-          "type": "text"
+          "$type": "text",
+          "$value": "Font Awesome 6 Free"
         }
       },
       "fontSize": {
         "3xs": {
-          "value": 11,
-          "type": "number",
-          "description": ".6875rem"
+          "$type": "number",
+          "$value": 11,
+          "$description": ".6875rem"
         },
         "2xs": {
-          "value": 12,
-          "type": "number",
-          "description": ".75rem"
+          "$type": "number",
+          "$value": 12,
+          "$description": ".75rem"
         },
         "xs": {
-          "value": 13,
-          "type": "number",
-          "description": ".8125rem"
+          "$type": "number",
+          "$value": 13,
+          "$description": ".8125rem"
         },
         "base": {
-          "value": 15,
-          "type": "number",
-          "description": ".9375rem"
+          "$type": "number",
+          "$value": 15,
+          "$description": ".9375rem"
         },
         "md": {
-          "value": 17,
-          "type": "number",
-          "description": "1.0625rem"
+          "$type": "number",
+          "$value": 17,
+          "$description": "1.0625rem"
         },
         "lg": {
-          "value": 20,
-          "type": "number",
-          "description": "1.25rem"
+          "$type": "number",
+          "$value": 20,
+          "$description": "1.25rem"
         },
         "xl": {
-          "value": 22,
-          "type": "number",
-          "description": "1.375rem"
+          "$type": "number",
+          "$value": 22,
+          "$description": "1.375rem"
         },
         "2xl": {
-          "value": 26,
-          "type": "number",
-          "description": "1.625rem"
+          "$type": "number",
+          "$value": 26,
+          "$description": "1.625rem"
         },
         "3xl": {
-          "value": 28,
-          "type": "number",
-          "description": "1.75rem"
+          "$type": "number",
+          "$value": 28,
+          "$description": "1.75rem"
         }
       },
       "lineHeight": {
         "sm": {
-          "value": 19.2,
-          "type": "number",
-          "description": "1.2"
+          "$type": "number",
+          "$value": 19.2,
+          "$description": "1.2"
         },
         "base": {
-          "value": 24,
-          "type": "number",
-          "description": "1.5"
+          "$type": "number",
+          "$value": 24,
+          "$description": "1.5"
         },
         "lg": {
-          "value": 28,
-          "type": "number",
-          "description": "1.75"
+          "$type": "number",
+          "$value": 28,
+          "$description": "1.75"
         }
       },
       "fontWeight": {
         "regular": {
-          "value": "Regular",
-          "type": "text"
+          "$type": "text",
+          "$value": "Regular"
         },
         "semibold": {
-          "value": "SemiBold",
-          "type": "text"
+          "$type": "text",
+          "$value": "SemiBold"
         },
         "bold": {
-          "value": "Bold",
-          "type": "text"
+          "$type": "text",
+          "$value": "Bold"
         }
       }
     },
     "spacing": {
       "0": {
-        "value": 0,
-        "type": "spacing",
-        "description": "0rem"
+        "$type": "spacing",
+        "$value": 0,
+        "$description": "0rem"
       },
       "1": {
-        "value": 8,
-        "type": "spacing",
-        "description": ".5rem"
+        "$type": "spacing",
+        "$value": 8,
+        "$description": ".5rem"
       },
       "2": {
-        "value": 16,
-        "type": "spacing",
-        "description": "1rem"
+        "$type": "spacing",
+        "$value": 16,
+        "$description": "1rem"
       },
       "3": {
-        "value": 24,
-        "type": "spacing",
-        "description": "1.5rem"
+        "$type": "spacing",
+        "$value": 24,
+        "$description": "1.5rem"
       },
       "4": {
-        "value": 32,
-        "type": "spacing",
-        "description": "2rem"
+        "$type": "spacing",
+        "$value": 32,
+        "$description": "2rem"
       },
       "5": {
-        "value": 40,
-        "type": "spacing",
-        "description": "2.5rem"
+        "$type": "spacing",
+        "$value": 40,
+        "$description": "2.5rem"
       },
       "6": {
-        "value": 48,
-        "type": "spacing",
-        "description": "3rem"
+        "$type": "spacing",
+        "$value": 48,
+        "$description": "3rem"
       },
       "8": {
-        "value": 64,
-        "type": "spacing",
-        "description": "4rem"
+        "$type": "spacing",
+        "$value": 64,
+        "$description": "4rem"
       },
       "10": {
-        "value": 80,
-        "type": "spacing",
-        "description": "5rem"
+        "$type": "spacing",
+        "$value": 80,
+        "$description": "5rem"
       },
       "12": {
-        "value": 96,
-        "type": "spacing",
-        "description": "6rem"
+        "$type": "spacing",
+        "$value": 96,
+        "$description": "6rem"
       },
       "16": {
-        "value": 128,
-        "type": "spacing",
-        "description": "8rem"
+        "$type": "spacing",
+        "$value": 128,
+        "$description": "8rem"
       }
     },
     "radius": {
       "base": {
-        "value": "6",
-        "type": "borderRadius",
-        "description": ".375rem"
+        "$type": "borderRadius",
+        "$value": "6",
+        "$description": ".375rem"
       },
       "sm": {
-        "value": "4",
-        "type": "borderRadius",
-        "description": ".25rem"
+        "$type": "borderRadius",
+        "$value": "4",
+        "$description": ".25rem"
       },
       "lg": {
-        "value": "8",
-        "type": "borderRadius",
-        "description": ".5rem"
+        "$type": "borderRadius",
+        "$value": "8",
+        "$description": ".5rem"
       },
       "xl": {
-        "value": "16",
-        "type": "borderRadius",
-        "description": "1rem"
+        "$type": "borderRadius",
+        "$value": "16",
+        "$description": "1rem"
       },
       "xxl": {
-        "value": "32",
-        "type": "borderRadius",
-        "description": "2rem"
+        "$type": "borderRadius",
+        "$value": "32",
+        "$description": "2rem"
       },
       "pill": {
-        "value": "9999",
-        "type": "borderRadius",
-        "description": "50rem"
+        "$type": "borderRadius",
+        "$value": "9999",
+        "$description": "50rem"
       }
     },
     "borderWidth": {
       "0": {
-        "value": 0,
-        "type": "borderWidth"
+        "$type": "borderWidth",
+        "$value": 0
       },
       "1": {
-        "value": 1,
-        "type": "borderWidth"
+        "$type": "borderWidth",
+        "$value": 1
       },
       "2": {
-        "value": 2,
-        "type": "borderWidth"
+        "$type": "borderWidth",
+        "$value": 2
       }
     },
     "opacity": {
       "0": {
-        "value": "0",
-        "type": "opacity",
-        "description": "0% — completamente transparente"
+        "$type": "opacity",
+        "$value": "0",
+        "$description": "0% — completamente transparente"
       },
       "10": {
-        "value": "0.1",
-        "type": "opacity",
-        "description": "10%"
+        "$type": "opacity",
+        "$value": "0.1",
+        "$description": "10%"
       },
       "25": {
-        "value": "0.25",
-        "type": "opacity",
-        "description": "25%"
+        "$type": "opacity",
+        "$value": "0.25",
+        "$description": "25%"
       },
       "50": {
-        "value": "0.5",
-        "type": "opacity",
-        "description": "50%"
+        "$type": "opacity",
+        "$value": "0.5",
+        "$description": "50%"
       },
       "75": {
-        "value": "0.75",
-        "type": "opacity",
-        "description": "75%"
+        "$type": "opacity",
+        "$value": "0.75",
+        "$description": "75%"
       },
       "100": {
-        "value": "1",
-        "type": "opacity",
-        "description": "100% — completamente opaco"
+        "$type": "opacity",
+        "$value": "1",
+        "$description": "100% — completamente opaco"
       }
     },
     "shadow": {
       "sm": {
-        "value": "0 1 2 0 rgba(0,0,0,0.05)",
-        "type": "boxShadow",
-        "description": "Sombra sutil — tarjetas, inputs"
+        "$type": "boxShadow",
+        "$value": "0 1 2 0 rgba(0,0,0,0.05)",
+        "$description": "Sombra sutil — tarjetas, inputs"
       },
       "md": {
-        "value": "0 4 6 -1 rgba(0,0,0,0.1), 0 2 4 -1 rgba(0,0,0,0.06)",
-        "type": "boxShadow",
-        "description": "Sombra media — dropdowns, popovers"
+        "$type": "boxShadow",
+        "$value": "0 4 6 -1 rgba(0,0,0,0.1), 0 2 4 -1 rgba(0,0,0,0.06)",
+        "$description": "Sombra media — dropdowns, popovers"
       },
       "lg": {
-        "value": "0 10 15 -3 rgba(0,0,0,0.1), 0 4 6 -2 rgba(0,0,0,0.05)",
-        "type": "boxShadow",
-        "description": "Sombra grande — modales, sidebars"
+        "$type": "boxShadow",
+        "$value": "0 10 15 -3 rgba(0,0,0,0.1), 0 4 6 -2 rgba(0,0,0,0.05)",
+        "$description": "Sombra grande — modales, sidebars"
       },
       "xl": {
-        "value": "0 20 25 -5 rgba(0,0,0,0.1), 0 10 10 -5 rgba(0,0,0,0.04)",
-        "type": "boxShadow",
-        "description": "Sombra extra grande — overlays flotantes"
+        "$type": "boxShadow",
+        "$value": "0 20 25 -5 rgba(0,0,0,0.1), 0 10 10 -5 rgba(0,0,0,0.04)",
+        "$description": "Sombra extra grande — overlays flotantes"
       }
     }
   },
@@ -330,67 +329,67 @@
     "typography": {
       "body": {
         "fontFamily": {
-          "value": "{typography.fontFamily.base}",
-          "type": "fontFamily"
+          "$type": "fontFamily",
+          "$value": "{typography.fontFamily.base}"
         },
         "fontSize": {
-          "value": "{typography.fontSize.base}",
-          "type": "fontSize"
+          "$type": "fontSize",
+          "$value": "{typography.fontSize.base}"
         },
         "lineHeight": {
-          "value": "{typography.lineHeight.normal}",
-          "type": "lineHeight"
+          "$type": "lineHeight",
+          "$value": "{typography.lineHeight.normal}"
         },
         "fontWeight": {
-          "value": "{typography.fontWeight.regular}",
-          "type": "fontWeight"
+          "$type": "fontWeight",
+          "$value": "{typography.fontWeight.regular}"
         },
         "color": {
-          "value": "{color.neutral.900}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.neutral.900}"
         }
       }
     },
     "color": {
       "text": {
         "default": {
-          "value": "{color.neutral.900}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.neutral.900}"
         },
         "display": {
-          "value": "{color.neutral.900}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.neutral.900}"
         },
         "inverse": {
-          "value": "{color.brand.white}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.brand.white}"
         }
       },
       "link": {
         "inline": {
-          "value": "{color.brand.primary}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.brand.primary}"
         },
         "display": {
-          "value": "{color.neutral.900}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.neutral.900}"
         },
         "inverse": {
-          "value": "{color.brand.white}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.brand.white}"
         },
         "hover": {
           "inline": {
-            "value": "{color.brand.primaryHover}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{color.brand.primaryHover}"
           },
           "display": {
-            "value": "{color.brand.primaryHover}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{color.brand.primaryHover}"
           },
           "inverse": {
-            "value": "{color.brand.white}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{color.brand.white}"
           }
         }
       }
@@ -398,8 +397,8 @@
     "interaction": {
       "link": {
         "hoverUnderline": {
-          "value": true,
-          "type": "boolean"
+          "$type": "boolean",
+          "$value": true
         }
       }
     }
@@ -407,151 +406,151 @@
   "components": {
     "paragraph": {
       "fontFamily": {
-        "value": "{typography.body.fontFamily}",
-        "type": "fontFamily"
+        "$type": "fontFamily",
+        "$value": "{typography.body.fontFamily}"
       },
       "fontSize": {
-        "value": "{typography.body.fontSize}",
-        "type": "fontSize"
+        "$type": "fontSize",
+        "$value": "{typography.body.fontSize}"
       },
       "lineHeight": {
-        "value": "{typography.body.lineHeight}",
-        "type": "lineHeight"
+        "$type": "lineHeight",
+        "$value": "{typography.body.lineHeight}"
       },
       "fontWeight": {
-        "value": "{typography.body.fontWeight}",
-        "type": "fontWeight"
+        "$type": "fontWeight",
+        "$value": "{typography.body.fontWeight}"
       },
       "color": {
-        "value": "{typography.body.color}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{typography.body.color}"
       }
     },
     "link": {
       "typography": {
         "fontFamily": {
-          "value": "{typography.fontFamily.base}",
-          "type": "fontFamily"
+          "$type": "fontFamily",
+          "$value": "{typography.fontFamily.base}"
         },
         "fontWeight": {
-          "value": "{typography.fontWeight.regular}",
-          "type": "fontWeight"
+          "$type": "fontWeight",
+          "$value": "{typography.fontWeight.regular}"
         },
         "lineHeight": {
-          "value": "{typography.lineHeight.normal}",
-          "type": "lineHeight"
+          "$type": "lineHeight",
+          "$value": "{typography.lineHeight.normal}"
         }
       },
       "size": {
         "3xs": {
           "fontSize": {
-            "value": "{typography.fontSize.3xs}",
-            "type": "fontSize"
+            "$type": "fontSize",
+            "$value": "{typography.fontSize.3xs}"
           }
         },
         "2xs": {
           "fontSize": {
-            "value": "{typography.fontSize.2xs}",
-            "type": "fontSize"
+            "$type": "fontSize",
+            "$value": "{typography.fontSize.2xs}"
           }
         },
         "xs": {
           "fontSize": {
-            "value": "{typography.fontSize.xs}",
-            "type": "fontSize"
+            "$type": "fontSize",
+            "$value": "{typography.fontSize.xs}"
           }
         },
         "base": {
           "fontSize": {
-            "value": "{typography.fontSize.base}",
-            "type": "fontSize"
+            "$type": "fontSize",
+            "$value": "{typography.fontSize.base}"
           }
         },
         "md": {
           "fontSize": {
-            "value": "{typography.fontSize.md}",
-            "type": "fontSize"
+            "$type": "fontSize",
+            "$value": "{typography.fontSize.md}"
           }
         },
         "lg": {
           "fontSize": {
-            "value": "{typography.fontSize.lg}",
-            "type": "fontSize"
+            "$type": "fontSize",
+            "$value": "{typography.fontSize.lg}"
           }
         },
         "xl": {
           "fontSize": {
-            "value": "{typography.fontSize.xl}",
-            "type": "fontSize"
+            "$type": "fontSize",
+            "$value": "{typography.fontSize.xl}"
           }
         },
         "2xl": {
           "fontSize": {
-            "value": "{typography.fontSize.2xl}",
-            "type": "fontSize"
+            "$type": "fontSize",
+            "$value": "{typography.fontSize.2xl}"
           }
         },
         "3xl": {
           "fontSize": {
-            "value": "{typography.fontSize.3xl}",
-            "type": "fontSize"
+            "$type": "fontSize",
+            "$value": "{typography.fontSize.3xl}"
           }
         }
       },
       "variant": {
         "inline": {
           "color": {
-            "value": "{color.link.inline}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{color.link.inline}"
           },
           "hoverColor": {
-            "value": "{color.link.hover.inline}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{color.link.hover.inline}"
           }
         },
         "display": {
           "color": {
-            "value": "{color.link.display}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{color.link.display}"
           },
           "hoverColor": {
-            "value": "{color.link.hover.display}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{color.link.hover.display}"
           }
         },
         "inverse": {
           "color": {
-            "value": "{color.link.inverse}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{color.link.inverse}"
           },
           "hoverColor": {
-            "value": "{color.link.hover.inverse}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{color.link.hover.inverse}"
           }
         }
       },
       "decoration": {
         "hoverUnderline": {
-          "value": "{interaction.link.hoverUnderline}",
-          "type": "boolean"
+          "$type": "boolean",
+          "$value": "{interaction.link.hoverUnderline}"
         }
       },
       "icon": {
         "enabled": {
-          "value": false,
-          "type": "boolean"
+          "$type": "boolean",
+          "$value": false
         },
         "fontFamily": {
-          "value": "{typography.fontFamily.icons}",
-          "type": "fontFamily"
+          "$type": "fontFamily",
+          "$value": "{typography.fontFamily.icons}"
         },
         "gap": {
-          "value": "{spacing.1}",
-          "type": "spacing"
+          "$type": "spacing",
+          "$value": "{spacing.1}"
         },
         "size": {
-          "value": "{typography.fontSize.base}",
-          "type": "fontSize"
+          "$type": "fontSize",
+          "$value": "{typography.fontSize.base}"
         }
       }
     }
