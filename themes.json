@@ -476,20 +476,6 @@
   },
   "components": {
     "atoms": {
-      "button": {
-        "text": {
-          "value": "{semantic.typography.label}",
-          "type": "typography"
-        },
-        "padding": {
-          "value": "{spacing.3}",
-          "type": "spacing"
-        },
-        "radius": {
-          "value": "{borderRadius.base}",
-          "type": "borderRadius"
-        }
-      },
       "link": {
         "typography": {
           "fontFamily": {
@@ -506,10 +492,36 @@
             "value": "{color.brand.primary}",
             "type": "color"
           },
+          "display": {
+            "value": "{color.brand.primary}",
+            "type": "color"
+          },
           "hover": {
             "value": "{color.brand.primaryHover}",
             "type": "color"
+          },
+          "inverse": {
+            "value": "{color.brand.white}",
+            "type": "color"
+          },
+          "inverseHover": {
+            "value": "{color.brand.white}",
+            "type": "color"
           }
+        }
+      },
+      "button": {
+        "text": {
+          "value": "{semantic.typography.label}",
+          "type": "typography"
+        },
+        "padding": {
+          "value": "{spacing.3}",
+          "type": "spacing"
+        },
+        "radius": {
+          "value": "{borderRadius.base}",
+          "type": "borderRadius"
         }
       }
     },
