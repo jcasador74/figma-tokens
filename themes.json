@@ -72,8 +72,8 @@
           "description": "Error"
         }
       },
-      "graficos": {
-        "categorias": {
+      "graphics": {
+        "categories": {
           "01": {
             "value": "#4a80bc",
             "type": "color",
@@ -135,7 +135,7 @@
             "description": "Paleta categórica 12"
           }
         },
-        "secuencial": {
+        "sequential": {
           "01": {
             "value": "#087021",
             "type": "color",
@@ -182,7 +182,7 @@
             "description": "Paleta secuencial 09"
           }
         },
-        "divergentes": {
+        "divergent": {
           "01": {
             "value": "#087021",
             "type": "color",
@@ -231,7 +231,7 @@
         }
       }
     },
-    "Typo": {
+    "typography": {
       "fontFamily": {
         "base": {
           "value": "Source Sans Pro",
@@ -268,32 +268,32 @@
           "description": ""
         },
         "h5": {
-          "value": "{Typo.fontSize.base} * 1.13333",
+          "value": "{typography.fontSize.base} * 1.13333",
           "type": "number",
           "description": "16.995px"
         },
         "h4": {
-          "value": "{Typo.fontSize.base} * 1.33333",
+          "value": "{typography.fontSize.base} * 1.33333",
           "type": "number",
           "description": "19.995px"
         },
         "h3": {
-          "value": "{Typo.fontSize.base} * 1.46667",
+          "value": "{typography.fontSize.base} * 1.46667",
           "type": "number",
           "description": "22.005px"
         },
         "h2": {
-          "value": "{Typo.fontSize.base} * 1.73333",
+          "value": "{typography.fontSize.base} * 1.73333",
           "type": "number",
           "description": "25.995px"
         },
         "h1": {
-          "value": "{Typo.fontSize.base} * 1.86667",
+          "value": "{typography.fontSize.base} * 1.86667",
           "type": "number",
           "description": "28.005px"
         },
         "h6": {
-          "value": "{Typo.fontSize.base} * 1",
+          "value": "{typography.fontSize.base} * 1",
           "type": "number",
           "description": "15px"
         }
@@ -330,19 +330,19 @@
         }
       }
     },
-    "Spacing": {
+    "spacing": {
       "0": {
         "value": 0,
         "type": "spacing",
         "description": "0rem"
       },
       "1": {
-        "value": "{Spacing.3} * 0.25",
+        "value": "{spacing.3} * 0.25",
         "type": "spacing",
         "description": ".25rem"
       },
       "2": {
-        "value": "{Spacing.3} * 0.5",
+        "value": "{spacing.3} * 0.5",
         "type": "spacing",
         "description": ".5rem"
       },
@@ -352,17 +352,17 @@
         "description": "1rem"
       },
       "4": {
-        "value": "{Spacing.3} * 1.5",
+        "value": "{spacing.3} * 1.5",
         "type": "spacing",
         "description": "1.5rem"
       },
       "5": {
-        "value": "{Spacing.3} * 3",
+        "value": "{spacing.3} * 3",
         "type": "spacing",
         "description": "3rem"
       }
     },
-    "radius": {
+    "borderRadius": {
       "base": {
         "value": "6",
         "type": "borderRadius",
@@ -440,7 +440,7 @@
         "description": "100% — completamente opaco"
       }
     },
-    "shadow": {
+    "boxShadow": {
       "sm": {
         "value": "0 1 2 0 rgba(0,0,0,0.05)",
         "type": "boxShadow",
@@ -475,7 +475,7 @@
           "type": "fontSize"
         },
         "lineHeight": {
-          "value": "{typography.lineHeight.normal}",
+          "value": "{typography.lineHeight.base}",
           "type": "lineHeight"
         },
         "fontWeight": {
@@ -575,7 +575,7 @@
           "type": "fontWeight"
         },
         "lineHeight": {
-          "value": "{typography.lineHeight.normal}",
+          "value": "{typography.lineHeight.base}",
           "type": "lineHeight"
         }
       },
