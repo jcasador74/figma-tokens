@@ -249,17 +249,17 @@
       },
       "fontSize": {
         "12": {
-          "value": 11,
-          "type": "number",
-          "description": ""
-        },
-        "13": {
           "value": 12,
           "type": "number",
           "description": ""
         },
-        "14": {
+        "13": {
           "value": 13,
+          "type": "number",
+          "description": ""
+        },
+        "14": {
+          "value": 14,
           "type": "number",
           "description": ""
         },
