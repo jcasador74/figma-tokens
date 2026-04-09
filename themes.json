@@ -337,12 +337,12 @@
         "description": "0rem"
       },
       "1": {
-        "value": "{Spacing.3} * .25",
+        "value": "{Spacing.3} * 0.25",
         "type": "spacing",
         "description": ".25rem"
       },
       "2": {
-        "value": "{Spacing.3} * .5",
+        "value": "{Spacing.3} * 0.5",
         "type": "spacing",
         "description": ".5rem"
       },
