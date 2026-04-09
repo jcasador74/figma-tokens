@@ -248,50 +248,50 @@
         }
       },
       "fontSize": {
-        "3xs": {
+        "12": {
           "value": 11,
           "type": "number",
-          "description": ".6875rem"
+          "description": ""
         },
-        "2xs": {
+        "13": {
           "value": 12,
           "type": "number",
-          "description": ".75rem"
+          "description": ""
         },
-        "xs": {
+        "14": {
           "value": 13,
           "type": "number",
-          "description": ".8125rem"
+          "description": ""
         },
         "base": {
           "value": 15,
           "type": "number",
-          "description": ".9375rem"
+          "description": ""
         },
-        "md": {
+        "h5": {
           "value": 17,
           "type": "number",
-          "description": "1.0625rem"
+          "description": ""
         },
-        "lg": {
+        "h4": {
           "value": 20,
           "type": "number",
-          "description": "1.25rem"
+          "description": ""
         },
-        "xl": {
+        "h3": {
           "value": 22,
           "type": "number",
-          "description": "1.375rem"
+          "description": ""
         },
-        "2xl": {
+        "h2": {
           "value": 26,
           "type": "number",
-          "description": "1.625rem"
+          "description": ""
         },
-        "3xl": {
+        "h1": {
           "value": 28,
           "type": "number",
-          "description": "1.75rem"
+          "description": ""
         }
       },
       "lineHeight": {
