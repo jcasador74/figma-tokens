@@ -278,7 +278,7 @@
           "description": "19.995px"
         },
         "h3": {
-          "value": "{Typo.fontSize.base} * 1.467",
+          "value": "{Typo.fontSize.base} * 1.46667",
           "type": "number",
           "description": "22.005px"
         },
@@ -288,7 +288,7 @@
           "description": "25.995px"
         },
         "h1": {
-          "value": "{Typo.fontSize.base} * 1.867",
+          "value": "{Typo.fontSize.base} * 1.86667",
           "type": "number",
           "description": "28.005px"
         },
