@@ -493,7 +493,7 @@
             "type": "color"
           },
           "display": {
-            "value": "{color.brand.primary}",
+            "value": "{color.neutral.900}",
             "type": "color"
           },
           "hover": {
