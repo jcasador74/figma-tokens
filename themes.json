@@ -1,6 +1,6 @@
 {
   "primitive": {
-    "color": {
+    "Color": {
       "brand": {
         "primary": {
           "value": "#087021",
@@ -362,7 +362,7 @@
         "description": "3rem"
       }
     },
-    "radius": {
+    "Radius": {
       "base": {
         "value": "6",
         "type": "borderRadius",
@@ -394,7 +394,7 @@
         "description": "50rem"
       }
     },
-    "borderWidth": {
+    "BorderWidth": {
       "0": {
         "value": 0,
         "type": "borderWidth"
