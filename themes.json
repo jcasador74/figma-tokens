@@ -268,32 +268,32 @@
           "description": ""
         },
         "h5": {
-          "value": "({primitive.Typo.fontSize.base} * 1.133)",
+          "value": "{Typo.fontSize.base} * 1.13333",
           "type": "number",
           "description": "16.995px"
         },
         "h4": {
-          "value": "({primitive.Typo.fontSize.base} * 1.333)",
+          "value": "{Typo.fontSize.base} * 1.33333",
           "type": "number",
           "description": "19.995px"
         },
         "h3": {
-          "value": "({primitive.Typo.fontSize.base} * 1.467)",
+          "value": "{Typo.fontSize.base} * 1.467",
           "type": "number",
           "description": "22.005px"
         },
         "h2": {
-          "value": "({primitive.Typo.fontSize.base} * 1.733)",
+          "value": "{Typo.fontSize.base} * 1.73333",
           "type": "number",
           "description": "25.995px"
         },
         "h1": {
-          "value": "({primitive.Typo.fontSize.base} * 1.867)",
+          "value": "{Typo.fontSize.base} * 1.867",
           "type": "number",
           "description": "28.005px"
         },
         "h6": {
-          "value": "({primitive.Typo.fontSize.base} * 1)",
+          "value": "{Typo.fontSize.base} * 1",
           "type": "number",
           "description": "15px"
         }
