@@ -347,7 +347,7 @@
         "description": ".5rem"
       },
       "3": {
-        "value": "{Spacing.3} * 1",
+        "value": "16 * 1",
         "type": "spacing",
         "description": "1rem"
       },
