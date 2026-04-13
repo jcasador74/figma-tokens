@@ -476,8 +476,8 @@
   },
   "components": {
     "atoms": {}
-  }
-    "$themes": [
+  },
+  "$themes": [
     {
       "id": "1117c328-313c-4ed7-b5a1-18ce66783a5b",
       "name": "JDA - Default",
