@@ -529,7 +529,7 @@
               "bg": "{color.brand.primary}",
               "border": "{color.brand.primary}",
               "text": "{color.brand.white}"
-            },
+            }
           },
           "hover": {
             "bg": "{color.brand.primaryHover}",
@@ -548,7 +548,7 @@
               "bg": "{color.brand.white}",
               "border": "{color.brand.primary}",
               "text": "{color.brand.primary}"
-            },
+            }
           },
           "hover": {
             "bg": "{color.brand.white}",
@@ -567,7 +567,7 @@
               "bg": "{color.brand.white}",
               "border": "{color.brand.primary}",
               "text": "{color.brand.primary}"
-            },
+            }
           },
           "hover": {
             "bg": "{color.brand.white}",
