@@ -515,85 +515,141 @@
           "value": "{semantic.typography.label}",
           "type": "typography"
         },
-        "padding": {
-          "value": "{spacing.3}",
-          "type": "spacing"
-        },
-        "radius": {
+        "borderRadius": {
           "value": "{borderRadius.base}",
           "type": "borderRadius"
+        },
+        "borderWidth": {
+          "value": "{borderWidth.base}",
+          "type": "borderWidth"
+        },
+        "primary": {
+          "default": {
+            "color": {
+              "bg": "{color.brand.primary}",
+              "border": "{color.brand.primary}",
+              "text": "{color.brand.white}"
+            },
+          },
+          "hover": {
+            "bg": "{color.brand.primaryHover}",
+            "border": "{color.brand.primaryHover}",
+            "text": "{color.brand.white}"
+          },
+          "disabled": {
+            "bg": "{color.brand.support}",
+            "border": "{color.brand.support}",
+            "text": "{color.brand.white}"
+          }
+        },
+        "secondary": {
+          "default": {
+            "color": {
+              "bg": "{color.brand.white}",
+              "border": "{color.brand.primary}",
+              "text": "{color.brand.primary}"
+            },
+          },
+          "hover": {
+            "bg": "{color.brand.white}",
+            "border": "{color.brand.primaryHover}",
+            "text": "{color.brand.primaryHover}"
+          },
+          "disabled": {
+            "bg": "{color.brand.white}",
+            "border": "{color.brand.support}",
+            "text": "{color.brand.support}"
+          }
+        },
+        "tertiary": {
+          "default": {
+            "color": {
+              "bg": "{color.brand.white}",
+              "border": "{color.brand.primary}",
+              "text": "{color.brand.primary}"
+            },
+          },
+          "hover": {
+            "bg": "{color.brand.white}",
+            "border": "{color.brand.primaryHover}",
+            "text": "{color.brand.primaryHover}"
+          },
+          "disabled": {
+            "bg": "{color.brand.white}",
+            "border": "{color.brand.support}",
+            "text": "{color.brand.support}"
+          }
+        },
+      },
+      "molecules": {
+        "navItem": {
+          "gap": {
+            "value": "{spacing.2}",
+            "type": "spacing"
+          }
+        }
+      },
+      "organisms": {
+        "header": {
+          "bg": {
+            "value": "{semantic.color.bg.surface}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{semantic.color.border.default}",
+            "type": "color"
+          },
+          "height": {
+            "value": "80px",
+            "type": "dimension"
+          }
+        },
+        "card": {
+          "bg": {
+            "value": "{semantic.color.bg.surface}",
+            "type": "color"
+          },
+          "shadow": {
+            "value": "{boxShadow.md}",
+            "type": "boxShadow"
+          },
+          "radius": {
+            "value": "{borderRadius.lg}",
+            "type": "borderRadius"
+          },
+          "padding": {
+            "value": "{spacing.4}",
+            "type": "spacing"
+          }
+        },
+        "footer": {
+          "bg": {
+            "value": "{color.neutral.900}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{semantic.color.text.inverse}",
+            "type": "color"
+          }
         }
       }
     },
-    "molecules": {
-      "navItem": {
-        "gap": {
-          "value": "{spacing.2}",
-          "type": "spacing"
+    "$themes": [
+      {
+        "id": "1117c328-313c-4ed7-b5a1-18ce66783a5b",
+        "name": "JDA - Default",
+        "selectedTokenSets": {
+          "primitive": "enabled",
+          "semantic": "enabled",
+          "components": "enabled"
         }
       }
-    },
-    "organisms": {
-      "header": {
-        "bg": {
-          "value": "{semantic.color.bg.surface}",
-          "type": "color"
-        },
-        "border": {
-          "value": "{semantic.color.border.default}",
-          "type": "color"
-        },
-        "height": {
-          "value": "80px",
-          "type": "dimension"
-        }
-      },
-      "card": {
-        "bg": {
-          "value": "{semantic.color.bg.surface}",
-          "type": "color"
-        },
-        "shadow": {
-          "value": "{boxShadow.md}",
-          "type": "boxShadow"
-        },
-        "radius": {
-          "value": "{borderRadius.lg}",
-          "type": "borderRadius"
-        },
-        "padding": {
-          "value": "{spacing.4}",
-          "type": "spacing"
-        }
-      },
-      "footer": {
-        "bg": {
-          "value": "{color.neutral.900}",
-          "type": "color"
-        },
-        "text": {
-          "value": "{semantic.color.text.inverse}",
-          "type": "color"
-        }
-      }
+    ],
+    "$metadata": {
+      "tokenSetOrder": [
+        "primitive",
+        "semantic",
+        "components"
+      ]
     }
-  },
-  "$themes": [
-    {
-      "id": "1117c328-313c-4ed7-b5a1-18ce66783a5b",
-      "name": "JDA - Default",
-      "selectedTokenSets": {
-        "primitive": "enabled",
-        "semantic": "enabled",
-        "components": "enabled"
-      }
-    }
-  ],
-  "$metadata": {
-    "tokenSetOrder": [
-      "primitive",
-      "semantic",
-      "components"
-    ]
   }
-}
