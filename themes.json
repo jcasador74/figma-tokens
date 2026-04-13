@@ -474,59 +474,23 @@
       }
     }
   },
-  "components": {
-    "atoms": {
-      "link": {
-        "typography": {
-          "fontFamily": {
-            "value": "{typography.fontFamily.base}",
-            "type": "fontFamily"
-          },
-          "fontWeight": {
-            "value": "{typography.fontWeight.regular}",
-            "type": "fontWeight"
-          }
-        },
-        "color": {
-          "default": {
-            "value": "{color.brand.primary}",
-            "type": "color"
-          },
-          "display": {
-            "value": "{color.neutral.900}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{color.brand.primaryHover}",
-            "type": "color"
-          },
-          "inverse": {
-            "value": "{color.brand.white}",
-            "type": "color"
-          },
-          "inverseHover": {
-            "value": "{color.brand.white}",
-            "type": "color"
-          }
-        }
-      },
-    },
-    "$themes": [
-      {
-        "id": "1117c328-313c-4ed7-b5a1-18ce66783a5b",
-        "name": "JDA - Default",
-        "selectedTokenSets": {
-          "primitive": "enabled",
-          "semantic": "enabled",
-          "components": "enabled"
-        }
+  "components": {},
+  "$themes": [
+    {
+      "id": "1117c328-313c-4ed7-b5a1-18ce66783a5b",
+      "name": "JDA - Default",
+      "selectedTokenSets": {
+        "primitive": "enabled",
+        "semantic": "enabled",
+        "components": "enabled"
       }
-    ],
-    "$metadata": {
-      "tokenSetOrder": [
-        "primitive",
-        "semantic",
-        "components"
-      ]
     }
+  ],
+  "$metadata": {
+    "tokenSetOrder": [
+      "primitive",
+      "semantic",
+      "components"
+    ]
   }
+}
