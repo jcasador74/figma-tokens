@@ -521,7 +521,7 @@
         },
         "borderWidth": {
           "value": "{borderWidth.base}",
-          "type": "borderWidth"
+          "type": "{borderWidth}"
         },
         "primary": {
           "default": {
