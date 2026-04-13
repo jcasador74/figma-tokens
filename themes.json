@@ -74,6 +74,11 @@
       },
       "graphics": {
         "categories": {
+          "11": {
+            "value": "#c76273",
+            "type": "color",
+            "description": "Paleta categórica 11"
+          },
           "01": {
             "value": "#4a80bc",
             "type": "color",
@@ -98,11 +103,6 @@
             "value": "#e58522",
             "type": "color",
             "description": "Paleta categórica 05"
-          },
-          "11": {
-            "value": "#c76273",
-            "type": "color",
-            "description": "Paleta categórica 11"
           }
         },
         "sequential": {
@@ -144,22 +144,22 @@
       },
       "fontSize": {
         "12": {
-          "value": 12,
+          "value": "12",
           "type": "number",
           "description": ""
         },
         "13": {
-          "value": 13,
+          "value": "13",
           "type": "number",
           "description": ""
         },
         "14": {
-          "value": 14,
+          "value": "14",
           "type": "number",
           "description": ""
         },
         "base": {
-          "value": 15,
+          "value": "15",
           "type": "number",
           "description": ""
         },
@@ -196,17 +196,17 @@
       },
       "lineHeight": {
         "sm": {
-          "value": 19.2,
+          "value": "19.2",
           "type": "number",
           "description": "1.2"
         },
         "base": {
-          "value": 24,
+          "value": "24",
           "type": "number",
           "description": "1.5"
         },
         "lg": {
-          "value": 28,
+          "value": "28",
           "type": "number",
           "description": "1.75"
         }
@@ -228,7 +228,7 @@
     },
     "spacing": {
       "0": {
-        "value": 0,
+        "value": "0",
         "type": "spacing",
         "description": "0rem"
       },
@@ -292,15 +292,15 @@
     },
     "borderWidth": {
       "0": {
-        "value": 0,
+        "value": "0",
         "type": "borderWidth"
       },
       "1": {
-        "value": 1,
+        "value": "1",
         "type": "borderWidth"
       },
       "2": {
-        "value": 2,
+        "value": "2",
         "type": "borderWidth"
       }
     },
@@ -357,12 +357,7 @@
         "type": "boxShadow",
         "description": "Sombra extra grande — overlays flotantes"
       }
-    },
-    "zIndex": {},
-    "breakpoints": {},
-    "motion": {},
-    "sizing": {},
-    "blur": {}
+    }
   },
   "semantic": {
     "color": {
@@ -509,6 +504,40 @@
             "type": "color"
           }
         }
+      },
+      "button": {
+        "color": {
+          "bg": {
+            "primary": {
+              "default": {
+                "value": "{color.brand.primary}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{color.brand.primaryHover}",
+                "type": "color"
+              },
+              "disabled": {
+                "value": "{color.brand.support}",
+                "type": "color"
+              }
+            },
+            "secondary": {
+              "default": {
+                "value": "{color.brand.white}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{color.brand.primaryHover}",
+                "type": "color"
+              },
+              "disabled": {
+                "value": "{color.brand.support}",
+                "type": "color"
+              }
+            }
+          }
+        }
       }
     }
   },
@@ -520,7 +549,8 @@
         "primitive": "enabled",
         "semantic": "enabled",
         "components": "enabled"
-      }
+      },
+      "$figmaVariableReferences": {}
     }
   ],
   "$metadata": {
